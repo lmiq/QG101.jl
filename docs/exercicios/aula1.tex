@@ -1,0 +1,120 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+
+{\bf QG101 - Química Geral}
+
+{\bf Aula 1 - Medidas, Propriedades e o Mol}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+Um engenheiro ambiental analisa a concentração de chumbo (\ce{Pb}) em
+amostras de água. O laudo indica $15{,}0~\mu\text{g/L}$ de \ce{Pb}.
+\begin{enumerate}
+  \item Converta esse valor para mg/L e para g/m$^3$, mostrando os
+        fatores de conversão utilizados.
+  \item O limite máximo permitido pela legislação brasileira (CONAMA) é
+        de $0{,}010~\text{mg/L}$. A amostra está dentro do limite?
+        Justifique numericamente.
+  \item A massa molar do \ce{Pb} é $207{,}2~\text{g/mol}$. Quantos
+        \emph{nanomols} de \ce{Pb} existem em 1,00 L dessa amostra?
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+Classifique cada grandeza abaixo como \textbf{extensiva (E)} ou
+\textbf{intensiva (I)} e justifique sua classificação em uma frase:
+\begin{enumerate}
+  \item Temperatura de fusão do ferro a 1 atm.
+  \item Número de mols de \ce{CO2} liberados por um motor a combustão
+        durante 1 hora de operação.
+  \item Densidade do etanol a 25\oC.
+  \item Energia total armazenada em um tanque de combustível.
+  \item Concentração molar de \ce{NaCl} em uma solução salina.
+\end{enumerate}
+\noindent
+\textbf{Bônus:} dê um exemplo de como duas grandezas extensivas da lista
+acima poderiam ser combinadas para gerar uma grandeza intensiva.
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+A glicose (\ce{C6H12O6}, $M = 180{,}16~\text{g/mol}$) é o principal
+combustível celular do corpo humano.
+\begin{enumerate}
+  \item Quantos mols de glicose existem em $270{,}2~\text{g}$?
+  \item Quantas \emph{moléculas} de glicose isso representa?
+        Expresse sua resposta em notação científica.
+  \item A glicose contém 6 átomos de carbono por molécula.
+        Quantos átomos de carbono existem nessa amostra?
+  \item Se essa quantidade de glicose fosse dissolvida em água até
+        completar $500~\text{mL}$ de solução, qual seria a concentração
+        molar da solução?
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+\end{document}

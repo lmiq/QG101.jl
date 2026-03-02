@@ -1,0 +1,101 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.15}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}    
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.24}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\ 
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+                                                           
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+
+{\bf QG101 - Química Geral}
+
+{\bf Aula 1 - Unidades de Medida e Mol}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\begin{center}{\bf Questões}\end{center}
+
+\qini
+Na solução de menor energia do rotor rígido quântico, as partículas estão paradas. 
+Como o rotor não tem energia potencial, isto significa que a sua energia total é nula.
+\begin{enumerate}
+\item
+Qual a fórmula exata desta solução, com a normalização correta? 
+\underline{Mostre} exatamente como obter esta solução.
+\item
+Faça um gráfico da densidade de probabilidade $Y^2(\theta,\phi)$ em função 
+de $\theta$. 
+\item
+Faça o gráfico qualitativo da probabilidade de encontrar o rotor com um ângulo $\theta\pm\Delta\theta$, em função de $\theta$.
+\item
+Explique brevemente a relação da densidade de probabilidade ser constante com o princípio de incerteza.
+\end{enumerate}
+{\bf Obs:} Lembre-se que o arco de círculo que faz ângulo $\theta$ com o eixo $z$
+tem comprimento proporcional a $\sen\theta$.
+\qend
+
+\qini
+As energias das soluções do rotor rígido quântico são dadas pela equação 
+\[
+E_J = \frac{\hbar^2}{2I}J(J+1)\textrm{ com }J = 0, 1, 2,...
+\]
+\begin{enumerate}
+\item
+Desenhe um diagrama de níveis de energia, colocando as energias como função da energia do nível de mais baixa energia.
+\item
+Desenhe um espectro de absorção indicando as 4 transições de menor energia, assumindo que as transições só podem ocorrer entre níveis de energia consecutivos.
+\item
+Desenhe um segundo espectro correspondente a um rotor rígido com partículas de maior massa. Deixe claras as diferenças qualitativas entre este espectro e o espectro do item anterior.
+\end{enumerate}
+\qend
+
+\end{document}
+

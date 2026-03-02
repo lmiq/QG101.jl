@@ -1,0 +1,128 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+
+{\bf QG101 - Química Geral}
+
+{\bf Aula 2 - Estequiometria}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+A \textbf{termita} é uma reação altamente exotérmica usada em soldagem
+e em incêndios industriais. A equação não balanceada é:
+
+\[
+  \ce{Al(s) + Fe2O3(s) -> Al2O3(s) + Fe(l)}
+\]
+
+\begin{enumerate}
+  \item Balance a equação química acima.
+  \item Quantos gramas de \ce{Al} ($M = 26{,}98~\text{g/mol}$) são
+        necessários para reagir completamente com $160{,}0~\text{g}$
+        de \ce{Fe2O3} ($M = 159{,}7~\text{g/mol}$)?
+  \item Qual a massa de ferro líquido (\ce{Fe},
+        $M = 55{,}85~\text{g/mol}$) produzida nessa reação?
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{processo Haber-Bosch} produz amônia para fertilizantes:
+\[
+  \ce{N2(g) + 3 H2(g) -> 2 NH3(g)}
+\]
+Em um reator industrial, misturam-se $56{,}0~\text{g}$ de \ce{N2}
+($M = 28{,}02~\text{g/mol}$) com $9{,}00~\text{g}$ de \ce{H2}
+($M = 2{,}016~\text{g/mol}$).
+\begin{enumerate}
+  \item Determine o número de mols de cada reagente.
+  \item Identifique o \textbf{reagente limitante}, mostrando o cálculo.
+  \item Calcule a massa teórica de \ce{NH3} ($M = 17{,}03~\text{g/mol}$)
+        produzida e a massa do reagente em excesso que sobra.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+Em um laboratório de análise de águas, realiza-se uma \textbf{titulação}
+para determinar a concentração de ácido clorídrico (\ce{HCl}) em uma
+amostra de efluente industrial. A reação é:
+\[
+  \ce{HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)}
+\]
+Para neutralizar $50{,}0~\text{mL}$ da amostra foram necessários
+$32{,}4~\text{mL}$ de \ce{NaOH} $0{,}150~\text{mol/L}$.
+\begin{enumerate}
+  \item Calcule o número de mols de \ce{NaOH} utilizados e, pela
+        estequiometria, o número de mols de \ce{HCl} na amostra.
+  \item Calcule a concentração molar de \ce{HCl} na amostra.
+  \item Converta essa concentração para g/L
+        ($M_{\ce{HCl}} = 36{,}46~\text{g/mol}$).
+        O resultado é extensivo ou intensivo? Justifique.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+\end{document}

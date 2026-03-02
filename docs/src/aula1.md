@@ -331,3 +331,7 @@ $m = 0{,}500 \times 28{,}02 = 14{,}0\ \text{g}$
 ---
 
 *Fim da aula — QG101 | Química Geral*
+
+---
+
+[Folha de exercícios (PDF)](../exercicios/aula1.pdf)
