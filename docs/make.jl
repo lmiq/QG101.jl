@@ -5,6 +5,7 @@ makedocs(
     sitename="QG101",
     pages = [
         "Aula 1" => "aula1.md",
+        "Aula 2" => "aula2.md",
     ],
 )
 deploydocs(

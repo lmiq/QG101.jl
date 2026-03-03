@@ -334,4 +334,4 @@ $m = 0{,}500 \times 28{,}02 = 14{,}0\ \text{g}$
 
 ---
 
-[Folha de exercícios (PDF)](../exercicios/aula1.pdf)
+[Folha de exercícios (PDF)](assets/exercicios/aula1.pdf)

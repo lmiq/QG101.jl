@@ -311,4 +311,4 @@ $V = n/C = 7{,}992 \times 10^{-3}/0{,}500 = 1{,}60 \times 10^{-2}\ \text{L} = 16
 
 ---
 
-[Folha de exercícios (PDF)](../exercicios/aula2.pdf)
+[Folha de exercícios (PDF)](assets/exercicios/aula2.pdf)
