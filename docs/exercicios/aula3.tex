@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+
+{\bf QG101 - Química Geral}
+
+{\bf Aula 3 - Estrutura Atômica}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{cálcio} (\ce{Ca}) é essencial para a estrutura óssea e para
+diversas aplicações em engenharia civil (cal, cimento). Seu isótopo mais
+abundante é o ${}^{40}_{20}\text{Ca}$.
+
+\begin{enumerate}
+  \item Determine o número de prótons, nêutrons e elétrons do átomo
+        neutro de ${}^{40}_{20}\text{Ca}$.
+  \item Escreva a configuração eletrônica completa do \ce{Ca} e sua
+        forma abreviada usando o gás nobre anterior como núcleo.
+  \item A qual grupo e período da tabela periódica o Ca pertence?
+        Quantos elétrons de valência possui? Com base nisso, qual íon
+        o Ca tende a formar?
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{cloro} (\ce{Cl}) é amplamente usado no tratamento de água
+potável. Ocorre naturalmente como mistura de dois isótopos estáveis:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Isótopo & Massa (u) & Abundância natural \\
+\hline
+${}^{35}\text{Cl}$ & $34{,}969$ & $75{,}77\%$ \\
+${}^{37}\text{Cl}$ & $36{,}966$ & $24{,}23\%$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \item Calcule a massa atômica média do cloro.
+        Compare com o valor tabelado ($M = 35{,}45~\text{u}$).
+  \item O ${}^{35}\text{Cl}$ e o ${}^{37}\text{Cl}$ são isótopos?
+        Justifique com base na definição de número atômico e número
+        de massa. Quantos nêutrons tem cada um?
+  \item Escreva a configuração eletrônica do \ce{Cl} ($Z = 17$) e
+        indique quantos elétrons de valência ele possui.
+        O \ce{Cl} tende a ganhar ou a perder elétrons? Qual íon forma?
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{ferro} (\ce{Fe}, $Z = 26$) é o metal estrutural mais
+utilizado na engenharia. Sua tendência à corrosão está diretamente
+ligada à configuração eletrônica e à facilidade de ionização.
+
+\begin{enumerate}
+  \item Escreva a configuração eletrônica completa do \ce{Fe} e
+        sua forma abreviada com gás nobre.
+  \item O \ce{Fe} pode se oxidar formando \ce{Fe^{2+}} (perde 2
+        elétrons) ou \ce{Fe^{3+}} (perde 3 elétrons). Escreva a
+        configuração eletrônica de cada íon. De qual subnível
+        são retirados os elétrons em cada caso? Justifique.
+  \item Entre o \ce{Fe} ($Z=26$) e o \ce{Cu} ($Z=29$), qual possui
+        maior raio atômico? Justifique com base na tendência de
+        raio atômico ao longo de um período.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+\end{document}
