@@ -1,0 +1,134 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+
+{\bf QG101 - Química Geral}
+
+{\bf Aula 4 - Configuração Eletrônica e Tabela Periódica}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{manganês} (\ce{Mn}, $Z = 25$) é amplamente utilizado em ligas
+metálicas de aço e em pilhas alcalinas (\ce{MnO2}). Sua química variada
+está diretamente ligada à sua configuração eletrônica.
+
+\begin{enumerate}
+  \item Escreva a configuração eletrônica completa do \ce{Mn} e sua
+        forma abreviada usando o gás nobre anterior. Identifique a qual
+        bloco, período e grupo da tabela periódica ele pertence.
+  \item Represente o preenchimento dos orbitais 3d do \ce{Mn} usando
+        diagramas de caixas ({\footnotesize $[\uparrow\downarrow]$,
+        $[\uparrow\phantom{\downarrow}]$, $[\phantom{\uparrow}\phantom{\downarrow}]$}).
+        Quantos elétrons desemparelhados possui? O \ce{Mn} é
+        paramagnético ou diamagnético?
+  \item O \ce{Mn} forma o íon \ce{Mn^{2+}} (perde 2 elétrons) e o íon
+        \ce{Mn^{4+}} (perde 4 elétrons). Escreva a configuração
+        eletrônica de cada íon e indique de qual(is) subnível(is) os
+        elétrons foram removidos, justificando a ordem de remoção.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{silício} (\ce{Si}, $Z = 14$) e o \textbf{germânio}
+(\ce{Ge}, $Z = 32$) são semicondutores fundamentais na indústria
+eletrônica. Suas propriedades dependem diretamente da configuração
+eletrônica de valência.
+
+\begin{enumerate}
+  \item Escreva a configuração eletrônica completa e abreviada do
+        \ce{Si} e do \ce{Ge}. Quantos elétrons de valência cada um
+        possui?
+  \item Ambos pertencem ao mesmo grupo da tabela periódica. Qual grupo?
+        Justifique com base na configuração de valência.
+  \item Na dopagem tipo~n, átomos de fósforo (\ce{P}, $Z = 15$)
+        substituem átomos de \ce{Si} na rede cristalina. Escreva a
+        configuração de valência do \ce{P} e explique, em termos de
+        elétrons de valência, por que essa substituição gera um
+        elétron ``extra'' livre para condução.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{cromo} (\ce{Cr}, $Z = 24$) é utilizado em revestimentos
+anticorrosivos e em ligas inoxidáveis. Sua configuração eletrônica
+apresenta uma exceção em relação ao diagrama de Pauling.
+
+\begin{enumerate}
+  \item Qual seria a configuração eletrônica do \ce{Cr} prevista pelo
+        diagrama de Pauling? E qual é a configuração real? Explique
+        por que a configuração real é mais estável.
+  \item O \ce{Cr} pode formar os íons \ce{Cr^{3+}} e \ce{Cr^{6+}}.
+        Escreva a configuração eletrônica de cada um. Qual deles é
+        diamagnético? Justifique.
+  \item O cobre (\ce{Cu}, $Z = 29$) apresenta anomalia semelhante à
+        do \ce{Cr}. Escreva a configuração real do \ce{Cu} e
+        explique a estabilidade extra envolvida.
+\end{enumerate}
+
+\vspace{2cm}
+\qend
+
+\end{document}
