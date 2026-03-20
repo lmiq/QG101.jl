@@ -33,6 +33,14 @@ O modelo de Bohr (órbitas circulares definidas) funciona apenas para o hidrogê
 
 ###  3 — Números Quânticos
 
+Equação de Schroedinger para o átomo de hidrogênio:
+
+$$\frac{-\hbar}{2m}\nabla\Psi(x) - \frac{e^2}{r}\Psi(x) = E\Psi(x)$$
+
+Com energias:
+
+$$E(n) = -\frac{13.6 \textrm{eV}}{n^2}$$
+
 O estado de cada elétron é descrito por **quatro números quânticos**:
 
 | Número quântico | Símbolo | Valores permitidos | Significado |
