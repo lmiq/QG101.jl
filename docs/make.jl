@@ -8,6 +8,7 @@ makedocs(
         "Aula 2" => "aula2.md",
         "Aula 3" => "aula3.md",
         "Aula 4" => "aula4.md",
+        "Aula 5" => "aula5.md",
     ],
 )
 deploydocs(

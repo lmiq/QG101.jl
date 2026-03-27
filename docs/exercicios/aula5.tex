@@ -1,0 +1,145 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\setlist{nosep, topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=2pt}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+{\bf QG101 - Química Geral}\\
+{\bf Aula 5 - Propriedades Periódicas}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\vspace{0.2cm}
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{sódio} (\ce{Na}, $Z = 11$) e o \textbf{cloro} (\ce{Cl},
+$Z = 17$) são vizinhos no 3.º período e reagem para formar o cloreto
+de sódio (\ce{NaCl}).
+
+\begin{enumerate}
+  \item Escreva as configurações eletrônicas de \ce{Na} e \ce{Cl}.
+        Com base nas tendências periódicas, compare os raios atômicos,
+        as energias de ionização e as eletronegatividades desses dois
+        elementos.
+  \item O \ce{Na} perde 1 elétron e o \ce{Cl} ganha 1 elétron ao
+        formar o \ce{NaCl}. Compare os raios do \textbf{íon}
+        \ce{Na+} com o átomo \ce{Na}, e do \textbf{íon} \ce{Cl-}
+        com o átomo \ce{Cl}. Justifique cada comparação.
+  \item A diferença de eletronegatividade entre \ce{Na} e \ce{Cl}
+        é $\Delta\chi = 2{,}1$. O que isso indica sobre o tipo de
+        ligação formada? Calcule $\Delta\chi$ para \ce{HCl}
+        ($\chi_\text{H} = 2{,}1$; $\chi_\text{Cl} = 3{,}0$) e
+        indique o tipo de ligação.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+A tabela abaixo apresenta energias de ionização sucessivas (em
+kJ/mol) de três elementos do 3.º período: \ce{Na}, \ce{Mg} e
+\ce{Al} — identificados como \textbf{X}, \textbf{Y} e \textbf{Z}
+(não necessariamente nessa ordem).
+
+\begin{center}
+\begin{tabular}{lrrrrr}
+\hline
+Elemento & EI$_1$ & EI$_2$ & EI$_3$ & EI$_4$ & EI$_5$ \\
+\hline
+X & 496 & 4562 & 6912 & 9543 & 13353 \\
+Y & 578 & 1817 & 2745 & 11578 & 14831 \\
+Z & 738 & 1451 & 7733 & 10540 & 13630 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \item Para cada elemento, identifique o número de elétrons de
+        valência a partir do \textbf{salto brusco} nas energias de
+        ionização. Associe cada rótulo (X, Y, Z) a um dos elementos
+        (\ce{Na}, \ce{Mg}, \ce{Al}), justificando sua resposta.
+  \item A EI$_1$ do \ce{Mg} é \textbf{maior} que a do \ce{Al},
+        mesmo que \ce{Mg} venha antes de \ce{Al} no 3.º período.
+        Explique essa anomalia com base nas configurações eletrônicas
+        dos dois elementos.
+  \item Escreva a configuração eletrônica de \ce{Na}, \ce{Mg} e
+        \ce{Al} e confirme, para cada um, o grupo da tabela periódica
+        ao qual pertence.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+Os \textbf{halogênios} (grupo 17) formam uma família com
+propriedades bem definidas. Considere \ce{F} ($Z=9$),
+\ce{Cl} ($Z=17$) e \ce{Br} ($Z=35$).
+
+\begin{enumerate}
+  \item Escreva a configuração eletrônica de valência dos três
+        halogênios. Por que todos eles tendem a formar o íon
+        \ce{X-}?
+  \item Coloque \ce{F}, \ce{Cl} e \ce{Br} em ordem crescente de:
+        (i) raio atômico; (ii) energia de ionização;
+        (iii) eletronegatividade. Justifique cada ordenação.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+\end{document}
