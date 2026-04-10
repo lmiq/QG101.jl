@@ -155,10 +155,10 @@ onde:
 
 **Tendências de $U$:**
 
-| Fator | Efeito em $|U|$ | Exemplo |
+| Fator | Efeito em $U$ | Exemplo |
 |-------|----------------|---------|
-| Cargas maiores ($|z|$) | Aumenta ($|U| \propto z^2$) | MgO ($-3795$) $\gg$ NaCl ($-787$) |
-| Distância menor ($r_0$) | Aumenta ($|U| \propto 1/r_0$) | LiF ($-1037$) $>$ LiI ($-761$) |
+| Cargas maiores ($z$) | $U$ aumenta ($U \propto z^2$) | MgO ($-3795$) $\gg$ NaCl ($-787$) kJ/mol |
+| Distância menor ($r_0$) | $U$ aumenta ($U \propto 1/r_0$) | LiF ($-1037$) $>$ LiI ($-761$) kJ/mol |
 | Estrutura ($A$) | Pequena variação | Depende da geometria |
 
 ---
