@@ -1,0 +1,155 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\setlist{nosep, topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=2pt}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+{\bf QG101 - Química Geral}\\
+{\bf Aula 6 - Ligações Iônicas}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\vspace{0.2cm}
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+O \textbf{cloreto de potássio} (\ce{KCl}) e o \textbf{óxido de
+magnésio} (\ce{MgO}) são dois sólidos iônicos com a mesma estrutura
+cristalina (tipo \ce{NaCl}).
+
+\begin{enumerate}
+  \item Escreva as configurações eletrônicas dos íons
+        \ce{K+}, \ce{Cl-}, \ce{Mg^{2+}} e \ce{O^{2-}}.
+        Identifique com quais gases nobres eles são isoeletrônicos.
+
+  \item A equação de Born--Landé para a energia de rede é:
+        \[
+          U = -\frac{N_A\, A\, |z_+||z_-|\, e^2}{4\pi\varepsilon_0\, r_0}
+              \!\left(1 - \frac{1}{n}\right)
+        \]
+        Usando \emph{apenas} os parâmetros $|z_+||z_-|$ e $r_0$
+        ($r_0(\text{KCl}) = 319$~pm; $r_0(\text{MgO}) = 211$~pm),
+        explique \textbf{qualitativamente} por que
+        $|U(\ce{MgO})| \gg |U(\ce{KCl})|$.
+
+  \item O ponto de fusão do \ce{MgO} é $2852$\oC{} e o do \ce{KCl}
+        é $770$\oC. Relacione essa diferença à energia de rede.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+\textbf{Constante de Madelung unidimensional.}
+Considere uma cadeia linear infinita de íons com cargas alternadas
+$+e$ e $-e$, separados por distância $d$:
+
+\[
+  \cdots\; +\; -\; +\; -\; +\; -\; +\;\cdots
+\]
+
+\begin{enumerate}
+  \item Tomando um íon de referência $+$ na origem,
+        mostre que a energia eletrostática por par é proporcional
+        à série:
+        \[
+          S = 1 - \tfrac{1}{2} + \tfrac{1}{3} - \tfrac{1}{4}
+              + \cdots = \sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{n}
+        \]
+
+  \item Sabendo que $S = \ln 2$, calcule a constante de Madelung
+        unidimensional $A_{1D} = 2\ln 2$ e compare com
+        $A_{3D} = 1{,}748$ (estrutura \ce{NaCl}).
+        Por que a constante tridimensional é maior?
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+\textbf{Ciclo de Born--Haber para o \ce{KCl}.}
+Use os dados abaixo para calcular a energia de rede $U$ do \ce{KCl}.
+
+\begin{center}
+\begin{tabular}{lc}
+\hline
+Grandeza & $\Delta H$ (kJ\,mol$^{-1}$)\\
+\hline
+$\Delta H_f^\circ$(\ce{KCl}, s) & $-437$ \\
+$\Delta H_{\text{sub}}$(\ce{K}) & $+89$ \\
+$\frac{1}{2}D$(\ce{Cl2}) & $+121$ \\
+$\text{EI}_1$(\ce{K}) & $+419$ \\
+$\text{AE}$(\ce{Cl}) & $+349$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \item Desenhe o ciclo de Born--Haber indicando cada etapa e
+        sua variação de entalpia.
+
+  \item Aplique a Lei de Hess para obter a expressão de $U$ em
+        função das grandezas tabeladas e calcule o valor numérico.
+
+  \item O valor experimental de $U(\ce{KCl})$ é $-717$~kJ/mol.
+        Compare com o seu resultado e comente.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+\end{document}
