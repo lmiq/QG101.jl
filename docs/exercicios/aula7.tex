@@ -1,0 +1,166 @@
+\documentclass[10pt,a4paper,ssfamily]{exam}
+\usepackage[brazil]{babel}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{epsfig}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\listfont}{\bf\fontencoding{OT1}\sffamily\large}
+\newcommand{\titlesfont}{\fontencoding{OT1}\sffamily\large}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\Mg}{Mg$^{2+}$}
+\renewcommand{\t}{\textrm}
+\newcommand{\cc}[1]{[\textrm{#1}]}
+\usepackage{enumitem}
+\setlist{nosep, topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=2pt}
+\newcommand{\bmat}{\left[\begin{array}{cc}}
+\newcommand{\emat}{\end{array}\right]}
+\newcommand{\nomera}{
+  \noindent
+  \begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+  Nome: & RA: \\
+  \hline
+  \end{tabular}
+}
+
+\newcommand{\qini}{\begin{enumerate}[resume]\item}
+\newcommand{\qend}{\end{enumerate}}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\molkg}{~mol~kg$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\Resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+\renewcommand{\Resposta}[1]{}
+\newcommand{\resposta}[1]{\vspace{0.5cm}\noindent{\bf Resposta:}\\ #1
+\begin{center}\rule{\textwidth}{0.4pt}\end{center}}
+
+
+\begin{document}
+\sffamily
+\pagestyle{empty}
+\nomera
+
+\begin{center}
+{\bf QG101 - Química Geral}\\
+{\bf Aula 7 - Ligações Covalentes e Estruturas de Lewis}\\
+\underline{Justifique suas respostas.}
+\end{center}
+
+\vspace{0.2cm}
+\begin{center}{\bf Questões}\end{center}
+
+% ---------------------------------------------------------------
+\qini
+\textbf{Estruturas de Lewis e carga formal.}
+Considere as seguintes espécies: \ce{H2O}, \ce{NH3}, \ce{CO2} e \ce{N2}.
+
+\begin{enumerate}
+  \item Para cada espécie, conte o total de elétrons de valência e
+        desenhe a estrutura de Lewis completa, indicando todos os pares
+        ligantes e não-ligantes.
+
+  \item Usando a fórmula
+        \[
+          \text{CF} = (\text{e}^-\ \text{valência})
+                    - (\text{e}^-\ \text{não-ligantes})
+                    - \tfrac{1}{2}(\text{e}^-\ \text{ligantes})
+        \]
+        calcule a carga formal de cada átomo na estrutura de Lewis do
+        \ce{CO2}. Verifique que a soma das cargas formais é igual
+        à carga total da molécula.
+
+  \item Uma estrutura alternativa para o \ce{CO2} seria
+        \ce{:O^{-}-C#O+:}
+        (uma ligação simples O--C e uma ligação tripla C--O).
+        Calcule as cargas formais nessa estrutura e explique por que
+        ela é \textbf{menos estável} que \ce{O=C=O}.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+\textbf{Ressonância no íon carbonato (\ce{CO3^{2-}}).}
+
+\begin{enumerate}
+  \item Conte o total de elétrons de valência do \ce{CO3^{2-}}
+        (lembre-se de incluir os dois elétrons da carga negativa).
+
+  \item Desenhe as \textbf{três} estruturas de ressonância do
+        \ce{CO3^{2-}}, indicando as cargas formais de cada átomo
+        em cada estrutura.
+
+  \item Calcule a \textbf{ordem de ligação média} C--O usando:
+        \[
+          \text{Ordem média} =
+          \frac{\text{soma das ordens nas estruturas de ressonância}}
+               {\text{número de estruturas equivalentes}}
+        \]
+
+  \item O comprimento experimental da ligação C--O no \ce{CO3^{2-}}
+        é 129 pm. Sabendo que uma ligação simples \ce{C-O} tem
+        143 pm e uma dupla \ce{C=O} tem 123 pm, verifique se esse
+        valor é consistente com a ordem de ligação calculada.
+        \textit{Sugestão}: estime o comprimento esperado por
+        interpolação linear entre os dois valores de referência.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+% ---------------------------------------------------------------
+\qini
+\textbf{Geometria molecular e polaridade (VSEPR).}
+Para cada espécie abaixo, aplique a teoria VSEPR para determinar
+a geometria molecular e indicar se a molécula é polar ou apolar.
+
+\begin{center}
+\begin{tabular}{llcc}
+\hline
+Espécie & Fórmula & Pares ligantes & Pares livres (central)\\
+\hline
+Metano       & \ce{CH4}  & \phantom{0} & \phantom{0} \\
+Amônia       & \ce{NH3}  & \phantom{0} & \phantom{0} \\
+Água         & \ce{H2O}  & \phantom{0} & \phantom{0} \\
+Dióx. de carbono & \ce{CO2} & \phantom{0} & \phantom{0} \\
+Trifluoreto de boro & \ce{BF3} & \phantom{0} & \phantom{0} \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \item Preencha a tabela com o número de pares ligantes e
+        não-ligantes no átomo central de cada espécie e determine
+        a geometria molecular e o ângulo de ligação esperado.
+
+  \item Os ângulos de ligação observados são:
+        \ce{CH4}: 109,5°; \ce{NH3}: 107,0°; \ce{H2O}: 104,5°.
+        Todos possuem 4 pares de elétrons ao redor do átomo central,
+        mas os ângulos diminuem na sequência acima.
+        Explique essa tendência usando o princípio de repulsão entre
+        pares eletrônicos.
+
+  \item Para quais das espécies listadas o vetor resultante dos
+        momentos de dipolo de ligação é \textbf{nulo}? Justifique
+        com base na geometria.
+\end{enumerate}
+
+\vspace{0.3cm}
+\qend
+
+\end{document}

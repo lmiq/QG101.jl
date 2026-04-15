@@ -1,0 +1,694 @@
+﻿Planejamento de Aulas - QG101 Química I
+1º Semestre 2026
+
+
+📚 BLOCO 1
+Aula Teórica 1: Sistema Internacional de Unidades e Medidas em Química
+Conteúdo:
+
+    • Sistema Internacional de Unidades (SI)
+    • Unidades fundamentais: massa (kg), tempo (s), comprimento (m), temperatura (K)
+    • Unidades derivadas importantes em química: volume (L, m³), densidade (g/cm³, kg/m³)
+    • Conversão entre unidades
+    • Notação científica e algarismos significativos
+Aula Prática 1: Aplicando Unidades e Medidas
+Exercícios (5):
+
+    1. Converta 2,5 kg em gramas e em miligramas.
+
+    2. Um cubo de metal tem 2 cm de aresta. Qual seu volume em cm³ e em mL?
+
+    3. Expresse os seguintes números em notação científica:
+
+        ◦ a) 0,000045
+        ◦ b) 125000
+        ◦ c) 0,0000000089
+
+    4. A densidade do alumínio é 2,70 g/cm³. Qual a massa de um bloco de alumínio com volume de 15 cm³?
+
+    5. Converta 298 K para graus Celsius e depois para Fahrenheit.
+
+Experimentos Simples (2):
+
+    1. Medindo densidade de líquidos caseiros
+
+        ◦ Materiais: água, óleo de cozinha, mel, balança de cozinha, proveta graduada ou copo medidor, balança
+        ◦ Procedimento: Medir massa e volume de cada líquido, calcular densidade
+        ◦ Objetivo: Compreender o conceito de densidade e praticar medidas
+
+    2. Explorando algarismos significativos
+
+        ◦ Materiais: régua, lápis, folha de papel, objetos pequenos (borracha, clips, moedas)
+        ◦ Procedimento: Medir comprimento dos objetos com diferentes instrumentos (régua, fita métrica)
+        ◦ Objetivo: Perceber limitações de medidas e precisão de instrumentos
+
+
+
+📚 BLOCO 2
+Aula Teórica 2: O Conceito de Mol e Massa Molar
+Conteúdo:
+
+    • Definição de mol e número de Avogadro (6,02 × 10²³)
+    • Massa atômica e massa molecular
+    • Massa molar e sua relação com a tabela periódica
+    • Cálculos envolvendo mol, massa e número de partículas
+    • Fórmulas químicas: molecular, empírica e estrutural
+Aula Prática 2: Cálculos com Mol
+Exercícios (5):
+
+    1. Quantos mols existem em 36 g de água (H₂O)? (Massas atômicas: H=1, O=16)
+
+    2. Qual a massa de 0,5 mol de NaCl (cloreto de sódio)? (Na=23, Cl=35,5)
+
+    3. Quantas moléculas existem em 88 g de CO₂? (C=12, O=16)
+
+    4. Um composto contém 40% de carbono, 6,7% de hidrogênio e 53,3% de oxigênio em massa. Determine sua fórmula empírica.
+
+    5. Calcule a massa molar dos seguintes compostos:
+
+        ◦ a) H₂SO₄ (ácido sulfúrico)
+        ◦ b) Ca(OH)₂ (hidróxido de cálcio)
+        ◦ c) C₆H₁₂O₆ (glicose)
+
+Experimentos Simples (2):
+
+    1. Visualizando o mol com materiais do dia a dia
+
+        ◦ Materiais: sal de cozinha, açúcar, balança de cozinha, colheres medidoras
+        ◦ Procedimento: Pesar 1 mol de NaCl (≈58,5g) e 1 mol de sacarose (≈342g), comparar volumes
+        ◦ Objetivo: Perceber que 1 mol de substâncias diferentes tem massas diferentes mas mesmo número de partículas
+
+    2. Contando por pesagem
+
+        ◦ Materiais: arroz, feijão, balança, pote pequeno
+        ◦ Procedimento: Contar 100 grãos de arroz e pesar. Depois pesar outra porção e estimar quantos grãos há usando proporção
+        ◦ Objetivo: Analogia com o conceito de massa molar - pesamos para saber quantidade
+
+
+
+📚 BLOCO 3
+Aula Teórica 3: Estequiometria e Balanceamento de Equações
+Conteúdo:
+
+    • Equações químicas e seu significado
+    • Lei de Lavoisier (conservação da massa)
+    • Balanceamento de equações químicas
+    • Coeficientes estequiométricos
+    • Cálculos estequiométricos simples
+    • Reagente limitante e reagente em excesso
+Aula Prática 3: Estequiometria na Prática
+Exercícios (5):
+
+    1. Balanceie as seguintes equações:
+
+        ◦ a) H₂ + O₂ → H₂O
+        ◦ b) N₂ + H₂ → NH₃
+        ◦ c) Fe + O₂ → Fe₂O₃
+
+    2. Na reação 2H₂ + O₂ → 2H₂O, quantos mols de água são formados a partir de 3 mols de H₂?
+
+    3. Quantos gramas de O₂ são necessários para reagir completamente com 4 g de H₂ na formação de água?
+
+    4. Na combustão completa do metano (CH₄ + 2O₂ → CO₂ + 2H₂O), quantos gramas de CO₂ são produzidos a partir de 16 g de CH₄?
+
+    5. Se 10 g de Fe reagem com 5 g de O₂ na formação de Fe₂O₃, qual é o reagente limitante? (Fe=56, O=16)
+
+Experimentos Simples (2):
+
+    1. Reação de efervescência - Balanceamento visual
+
+        ◦ Materiais: bicarbonato de sódio, vinagre (ácido acético), copo, balança
+        ◦ Procedimento: Pesar antes e depois da reação (sistema aberto e fechado), observar liberação de CO₂
+        ◦ Objetivo: Demonstrar conservação da massa e produtos gasosos
+
+    2. Reagente limitante com vela
+
+        ◦ Materiais: vela, 2 copos de vidro de tamanhos diferentes
+        ◦ Procedimento: Acender vela e cobrir com cada copo, observar tempo de combustão
+        ◦ Objetivo: Demonstrar que a reação cessa quando um reagente (O₂) acaba
+
+
+
+📚 BLOCO 4
+Aula Teórica 4: Estrutura Atômica - Modelos e Partículas Subatômicas
+Conteúdo:
+
+    • Evolução dos modelos atômicos (Dalton, Thomson, Rutherford)
+    • Partículas subatômicas: prótons, nêutrons, elétrons
+    • Número atômico (Z) e número de massa (A)
+    • Isótopos, isóbaros e isótonos
+    • Natureza elétrica da matéria
+    • Íons: cátions e ânions
+Aula Prática 4: Estrutura Atômica
+Exercícios (5):
+
+    1. Um átomo possui 17 prótons, 18 nêutrons e 17 elétrons. Determine:
+
+        ◦ a) Número atômico
+        ◦ b) Número de massa
+        ◦ c) Represente simbolicamente este átomo
+
+    2. O cloro possui dois isótopos naturais: ³⁵Cl e ³⁷Cl. Quantos nêutrons possui cada um?
+
+    3. Determine o número de prótons, nêutrons e elétrons para:
+
+        ◦ a) Na⁺ (Z=11, A=23)
+        ◦ b) O²⁻ (Z=8, A=16)
+        ◦ c) Al³⁺ (Z=13, A=27)
+
+    4. Dois átomos são isótopos. Um deles possui 20 prótons e 20 nêutrons. O outro possui número de massa 42. Quantos nêutrons possui o segundo átomo?
+
+    5. Qual a diferença entre ¹²C e ¹⁴C? Por que são considerados isótopos?
+
+Experimentos Simples (2):
+
+    1. Modelo atômico com frutas
+
+        ◦ Materiais: laranjas/bolas pequenas (prótons), uvas/bolinhas azuis (nêutrons), grãos de arroz/contas pequenas (elétrons)
+        ◦ Procedimento: Construir modelo tridimensional de átomos simples (H, He, Li)
+        ◦ Objetivo: Visualizar proporções e distribuição de partículas subatômicas
+
+    2. Eletrostática - cargas elétricas
+
+        ◦ Materiais: balão de festa, pedaços de papel, pente, cabelo
+        ◦ Procedimento: Atritar balão no cabelo e aproximar de pedaços de papel
+        ◦ Objetivo: Demonstrar natureza elétrica da matéria e atração/repulsão
+
+
+
+📚 BLOCO 5
+Aula Teórica 5: Configuração Eletrônica e Tabela Periódica
+Conteúdo:
+
+    • Modelo quântico simplificado
+    • Níveis e subníveis de energia (s, p, d, f)
+    • Diagrama de Pauling
+    • Configuração eletrônica dos elementos
+    • Princípio de exclusão de Pauli
+    • Regra de Hund
+    • Relação entre configuração eletrônica e posição na tabela periódica
+Aula Prática 5: Configuração Eletrônica
+Exercícios (5):
+
+    1. Faça a configuração eletrônica dos seguintes elementos:
+
+        ◦ a) C (Z=6)
+        ◦ b) O (Z=8)
+        ◦ c) Na (Z=11)
+        ◦ d) Cl (Z=17)
+
+    2. Qual a configuração eletrônica do íon Ca²⁺? (Z=20)
+
+    3. Determine o número de elétrons na camada de valência de:
+
+        ◦ a) N (Z=7)
+        ◦ b) Si (Z=14)
+        ◦ c) S (Z=16)
+
+    4. Um elemento tem configuração eletrônica terminando em 3s². Em qual grupo e período da tabela periódica ele se encontra?
+
+    5. Quantos orbitais existem no subnível:
+
+        ◦ a) 2s
+        ◦ b) 3p
+        ◦ c) 3d
+
+Experimentos Simples (2):
+
+    1. Teste de chama - observando níveis de energia
+
+        ◦ Materiais: lamparina/vela, sal de cozinha (NaCl), fio de cobre limpo, água
+        ◦ Procedimento: Umedecer fio com solução salina e levar à chama, observar cor
+        ◦ Objetivo: Relacionar cor da chama com transições eletrônicas (Na = amarelo)
+
+    2. Tabela periódica interativa caseira
+
+        ◦ Materiais: cartolina, canetas coloridas, tesoura, papel
+        ◦ Procedimento: Criar cards de elementos organizados por famílias, colorir por tipo (metal, ametal, etc.)
+        ◦ Objetivo: Perceber padrões e periodicidade das propriedades
+
+
+
+📚 BLOCO 6
+Aula Teórica 6: Propriedades Periódicas
+Conteúdo:
+
+    • Lei Periódica
+    • Organização da tabela periódica (grupos e períodos)
+    • Propriedades periódicas: raio atômico, energia de ionização, afinidade eletrônica, eletronegatividade
+    • Metais, não-metais e metaloides
+    • Tendências nas famílias: metais alcalinos, alcalino-terrosos, halogênios, gases nobres
+Aula Prática 6: Propriedades Periódicas
+Exercícios (5):
+
+    1. Coloque em ordem crescente de raio atômico: Li, Na, K, Rb
+
+    2. Qual elemento possui maior energia de ionização: N ou O? Justifique.
+
+    3. Entre Cl e Br, qual é mais eletronegativo? Por quê?
+
+    4. Classifique como metal, não-metal ou metaloide: Na, S, Si, Fe, Cl, Al
+
+    5. Explique por que os gases nobres são pouco reativos em termos de configuração eletrônica.
+
+Experimentos Simples (2):
+
+    1. Reatividade de metais com água
+
+        ◦ Materiais: pregos de ferro, clipes de alumínio, água, sal, copos transparentes
+        ◦ Procedimento: Colocar metais em água pura e em água salgada, observar após alguns dias
+        ◦ Objetivo: Comparar reatividade de diferentes metais (corrosão)
+
+    2. Densidade comparativa de metais e não-metais
+
+        ◦ Materiais: água, recipiente transparente, diferentes objetos (metal, plástico, madeira, pedra)
+        ◦ Procedimento: Verificar quais flutuam ou afundam
+        ◦ Objetivo: Relacionar densidade com tipo de elemento (metais geralmente mais densos)
+
+
+
+📚 BLOCO 7
+Aula Teórica 7: Ligação Química I - Ligação Iônica
+Conteúdo:
+
+    • Por que átomos formam ligações?
+    • Símbolos de Lewis
+    • Regra do octeto
+    • Ligação iônica: transferência de elétrons
+    • Formação de cátions e ânions
+    • Propriedades dos compostos iônicos
+    • Energia de rede cristalina
+    • Fórmulas de compostos iônicos
+Aula Prática 7: Ligações Iônicas
+Exercícios (5):
+
+    1. Faça a distribuição eletrônica de Lewis para: Na, Cl, Ca, O
+
+    2. Represente a formação da ligação iônica entre:
+
+        ◦ a) Na e Cl
+        ◦ b) Mg e O
+        ◦ c) Ca e F
+
+    3. Qual a fórmula do composto iônico formado entre:
+
+        ◦ a) K e S
+        ◦ b) Al e O
+        ◦ c) Mg e N
+
+    4. Explique por que o NaCl conduz eletricidade quando fundido mas não no estado sólido.
+
+    5. Por que compostos iônicos geralmente possuem altos pontos de fusão?
+
+Experimentos Simples (2):
+
+    1. Crescimento de cristais de sal
+
+        ◦ Materiais: sal de cozinha, água quente, copo, barbante, lápis
+        ◦ Procedimento: Preparar solução supersaturada, pendurar barbante e observar cristalização ao longo de dias
+        ◦ Objetivo: Visualizar estrutura cristalina de compostos iônicos
+
+    2. Condutividade elétrica em soluções
+
+        ◦ Materiais: 2 pilhas AA, LED, 2 fios, água, sal, açúcar, copos
+        ◦ Procedimento: Montar circuito simples e testar condutividade de água pura, água salgada e água com açúcar
+        ◦ Objetivo: Demonstrar que compostos iônicos dissolvidos conduzem eletricidade
+
+
+
+📚 BLOCO 8
+Aula Teórica 8: Ligação Química II - Ligação Covalente
+Conteúdo:
+
+    • Ligação covalente: compartilhamento de elétrons
+    • Ligações simples, duplas e triplas
+    • Estruturas de Lewis de moléculas
+    • Ligação covalente polar e apolar
+    • Eletronegatividade e polaridade
+    • Geometria molecular (introdução)
+    • Propriedades dos compostos moleculares
+Aula Prática 8: Ligações Covalentes
+Exercícios (5):
+
+    1. Desenhe a estrutura de Lewis para:
+
+        ◦ a) H₂O
+        ◦ b) NH₃
+        ◦ c) CH₄
+        ◦ d) CO₂
+
+    2. Classifique as ligações como iônica, covalente polar ou covalente apolar:
+
+        ◦ a) H-H
+        ◦ b) H-Cl
+        ◦ c) Na-Cl
+        ◦ d) C-H
+
+    3. Quantas ligações sigma (σ) e pi (π) existem em O₂ (O=O)?
+
+    4. Qual molécula é mais polar: HF ou HCl? Justifique.
+
+    5. Explique por que o CH₄ é apolar apesar de possuir ligações C-H polares.
+
+Experimentos Simples (2):
+
+    1. Polaridade das moléculas
+
+        ◦ Materiais: água, óleo, balão, pente
+        ◦ Procedimento: Fazer filete de água, atritar balão e aproximar. Repetir com filete de óleo
+        ◦ Objetivo: Demonstrar polaridade da água (desvia) vs apolaridade do óleo (não desvia)
+
+    2. Solubilidade e polaridade ("semelhante dissolve semelhante")
+
+        ◦ Materiais: água, óleo, álcool, sal, açúcar, copos pequenos
+        ◦ Procedimento: Testar solubilidade de sal em água, óleo; açúcar em água, óleo; óleo em água, álcool
+        ◦ Objetivo: Relacionar polaridade com solubilidade
+
+
+
+📚 BLOCO 9
+Aula Teórica 9: Forças Intermoleculares e Estados da Matéria
+Conteúdo:
+
+    • Diferença entre ligação intramolecular e intermolecular
+    • Tipos de forças intermoleculares: dipolo-dipolo, forças de London, ligação de hidrogênio
+    • Influência nas propriedades físicas (ponto de fusão, ebulição, viscosidade)
+    • Estados físicos da matéria
+    • Mudanças de estado
+    • Propriedades anômalas da água
+Aula Prática 9: Forças Intermoleculares
+Exercícios (5):
+
+    1. Ordene por ponto de ebulição crescente: CH₄, H₂O, NH₃, Ne
+
+    2. Por que a água tem ponto de ebulição muito maior que o esperado para seu tamanho molecular?
+
+    3. Identifique o tipo principal de força intermolecular em:
+
+        ◦ a) HF
+        ◦ b) CO₂
+        ◦ c) CH₄
+        ◦ d) NH₃
+
+    4. Explique por que o gelo flutua na água líquida.
+
+    5. O etanol (C₂H₅OH) é solúvel em água mas o hexano (C₆H₁₄) não é. Explique.
+
+Experimentos Simples (2):
+
+    1. Tensão superficial da água
+
+        ◦ Materiais: copo com água, clipes de papel, detergente, pimenta do reino
+        ◦ Procedimento: Colocar clipes flutuando, polvilhar pimenta e pingar detergente no centro
+        ◦ Objetivo: Demonstrar forças intermoleculares na superfície e efeito de surfactantes
+
+    2. Viscosidade comparativa
+
+        ◦ Materiais: água, mel, óleo, rampas inclinadas ou copos
+        ◦ Procedimento: Deixar gotas escorrerem pela rampa e comparar velocidades
+        ◦ Objetivo: Relacionar viscosidade com forças intermoleculares
+
+
+
+📚 BLOCO 10
+Aula Teórica 10: Soluções e Concentração
+Conteúdo:
+
+    • Definição de solução, soluto e solvente
+    • Tipos de soluções
+    • Solubilidade e fatores que a afetam (temperatura, pressão)
+    • Curvas de solubilidade
+    • Unidades de concentração: g/L, % massa, molaridade (mol/L)
+    • Diluição de soluções
+    • Propriedades coligativas (introdução)
+Aula Prática 10: Preparando Soluções
+Exercícios (5):
+
+    1. Calcule a concentração em g/L de uma solução preparada dissolvendo 20 g de NaCl em 500 mL de água.
+
+    2. Qual a molaridade de uma solução contendo 5,85 g de NaCl em 250 mL de solução? (NaCl = 58,5 g/mol)
+
+    3. Quantos gramas de açúcar são necessários para preparar 200 mL de solução a 10% (m/v)?
+
+    4. Como preparar 100 mL de solução 0,5 M de NaCl a partir de uma solução 2 M?
+
+    5. Uma solução contém 15 g de soluto em 150 g de água. Qual a porcentagem em massa?
+
+Experimentos Simples (2):
+
+    1. Preparando soluções de diferentes concentrações
+
+        ◦ Materiais: açúcar ou sal, água, copos medidores, colheres medidoras, balança
+        ◦ Procedimento: Preparar soluções de 5%, 10% e 20% (m/v), comparar aparência e sabor (com sal ou açúcar)
+        ◦ Objetivo: Compreender conceito de concentração de forma prática
+
+    2. Solubilidade e temperatura
+
+        ◦ Materiais: água quente, água fria, sal, açúcar, copos transparentes
+        ◦ Procedimento: Tentar dissolver mesma quantidade de soluto em água quente vs fria, observar diferenças
+        ◦ Objetivo: Demonstrar influência da temperatura na solubilidade
+
+
+
+📚 BLOCO 11
+Aula Teórica 11: Reações Químicas e Classificação
+Conteúdo:
+
+    • Tipos de reações químicas: síntese, decomposição, simples troca, dupla troca
+    • Reações de precipitação
+    • Reações ácido-base (neutralização)
+    • Reações de oxirredução (introdução)
+    • Evidências de reações químicas
+    • Reações endotérmicas e exotérmicas
+Aula Prática 11: Tipos de Reações
+Exercícios (5):
+
+    1. Classifique as reações:
+
+        ◦ a) 2H₂ + O₂ → 2H₂O
+        ◦ b) CaCO₃ → CaO + CO₂
+        ◦ c) Zn + 2HCl → ZnCl₂ + H₂
+        ◦ d) NaCl + AgNO₃ → NaNO₃ + AgCl
+
+    2. Complete e balanceie: Mg + O₂ → ?
+
+    3. Identifique o precipitado formado: NaCl(aq) + AgNO₃(aq) → ?
+
+    4. Escreva a equação de neutralização entre HCl e NaOH.
+
+    5. Qual(is) evidência(s) indica(m) que ocorreu uma reação química quando vinagre é adicionado a bicarbonato de sódio?
+
+Experimentos Simples (2):
+
+    1. Reação de precipitação
+
+        ◦ Materiais: sal de cozinha, vinagre, bicarbonato de sódio, leite, copos transparentes
+        ◦ Procedimento: Adicionar vinagre ao leite e observar precipitação de caseína
+        ◦ Objetivo: Visualizar formação de precipitado em reação de dupla troca
+
+    2. Reação exotérmica vs endotérmica
+
+        ◦ Materiais: vinagre, bicarbonato de sódio, copo
+        ◦ Procedimento: Tocar o fundo do copo antes e durante a reação, sentir temperatura
+        ◦ Objetivo: Perceber transferência de energia em reações químicas
+
+
+
+📚 BLOCO 12
+Aula Teórica 12: Ácidos e Bases
+Conteúdo:
+
+    • Definições de Arrhenius
+    • Características de ácidos e bases
+    • Força de ácidos e bases
+    • Escala de pH
+    • Ionização e dissociação
+    • Indicadores ácido-base
+    • Ácidos e bases no cotidiano
+    • Reações de neutralização
+Aula Prática 12: Ácidos e Bases no Dia a Dia
+Exercícios (5):
+
+    1. Classifique como ácido ou base segundo Arrhenius:
+
+        ◦ a) HCl
+        ◦ b) NaOH
+        ◦ c) H₂SO₄
+        ◦ d) Ca(OH)₂
+
+    2. Calcule o pH de uma solução com [H⁺] = 1 × 10⁻³ M. A solução é ácida ou básica?
+
+    3. Qual a [OH⁻] de uma solução com pH = 10?
+
+    4. Complete a reação de neutralização: H₂SO₄ + Ca(OH)₂ → ?
+
+    5. Se o pH de uma solução é 3, qual o pH após diluir 10 vezes?
+
+Experimentos Simples (2):
+
+    1. Indicador caseiro de repolho roxo
+
+        ◦ Materiais: repolho roxo, água quente, coador, copos, vinagre, bicarbonato, limão, sabão
+        ◦ Procedimento: Fazer extrato de repolho roxo, testar com substâncias ácidas e básicas, observar cores
+        ◦ Objetivo: Criar indicador natural e testar pH de substâncias cotidianas
+
+    2. Neutralização e efeito térmico
+
+        ◦ Materiais: vinagre, bicarbonato, termômetro (ou toque manual), copo
+        ◦ Procedimento: Misturar ácido (vinagre) com base (bicarbonato), observar temperatura e formação de CO₂
+        ◦ Objetivo: Demonstrar reação de neutralização com produção de sal, água e gás
+
+
+
+📚 BLOCO 13
+Aula Teórica 13: Termoquímica Básica
+Conteúdo:
+
+    • Energia e transformações químicas
+    • Entalpia (H) e variação de entalpia (ΔH)
+    • Reações exotérmicas (ΔH < 0) e endotérmicas (ΔH > 0)
+    • Calor específico e capacidade calorífica
+    • Primeira Lei da Termodinâmica (conservação de energia)
+    • Equações termoquímicas
+    • Lei de Hess (introdução)
+Aula Prática 13: Energia nas Reações
+Exercícios (5):
+
+    1. Classifique como exotérmica ou endotérmica:
+
+        ◦ a) Combustão de madeira
+        ◦ b) Derretimento de gelo
+        ◦ c) Fotossíntese
+        ◦ d) Respiração celular
+
+    2. Uma reação libera 50 kJ. Qual o valor de ΔH? A reação é exotérmica ou endotérmica?
+
+    3. Calcule a quantidade de calor necessária para aquecer 100 g de água de 25°C a 75°C. (calor específico da água = 4,18 J/g°C)
+
+    4. Dada a equação: C + O₂ → CO₂ ΔH = -394 kJ. O que significa o sinal negativo?
+
+    5. Por que a transpiração resfria o corpo?
+
+Experimentos Simples (2):
+
+    1. Dissolução endotérmica e exotérmica
+
+        ◦ Materiais: sal de cozinha, cloreto de cálcio (se disponível) ou bicarbonato, água, copos
+        ◦ Procedimento: Dissolver diferentes sais em água e sentir temperatura do copo
+        ◦ Objetivo: Demonstrar que algumas dissoluções absorvem calor e outras liberam
+
+    2. Combustão de vela - energia química para térmica e luminosa
+
+        ◦ Materiais: vela, fósforo, termômetro
+        ◦ Procedimento: Acender vela, medir temperatura ao redor, observar mudança de estado da parafina
+        ◦ Objetivo: Visualizar reação exotérmica e transformação de energia
+
+
+
+📚 BLOCO 14
+Aula Teórica 14: Equilíbrio Químico
+Conteúdo:
+
+    • Conceito de equilíbrio dinâmico
+    • Reações reversíveis
+    • Constante de equilíbrio (Kc)
+    • Lei de ação das massas
+    • Princípio de Le Chatelier
+    • Fatores que afetam o equilíbrio: concentração, temperatura, pressão
+    • Equilíbrio iônico em soluções aquosas
+Aula Prática 14: Perturbando o Equilíbrio
+Exercícios (5):
+
+    1. Para a reação N₂ + 3H₂ ⇌ 2NH₃, escreva a expressão da constante de equilíbrio Kc.
+
+    2. Em um sistema em equilíbrio, se aumentarmos a concentração de reagentes, para que lado o equilíbrio será deslocado?
+
+    3. Uma reação exotérmica está em equilíbrio. O que acontece se aumentarmos a temperatura?
+
+    4. Para a reação A ⇌ B, Kc = 100. A reação favorece produtos ou reagentes?
+
+    5. Explique o princípio de Le Chatelier com um exemplo do cotidiano (ex: garrafa de refrigerante).
+
+Experimentos Simples (2):
+
+    1. Equilíbrio ácido-base com indicador
+
+        ◦ Materiais: indicador de repolho roxo, vinagre, bicarbonato, copos
+        ◦ Procedimento: Preparar solução com indicador, adicionar ácido (cor rosa), depois base aos poucos até voltar a ficar roxo/verde
+        ◦ Objetivo: Demonstrar reversibilidade e equilíbrio ácido-base
+
+    2. Saturação e equilíbrio de solubilidade
+
+        ◦ Materiais: açúcar ou sal, água, copo transparente, colher
+        ◦ Procedimento: Adicionar soluto até saturação, observar corpo de fundo, aquecer e ver dissolução
+        ◦ Objetivo: Visualizar equilíbrio entre sólido e solução
+
+
+
+📚 BLOCO 15
+Aula Teórica 15: Cinética Química e Revisão Geral
+Conteúdo:
+
+    • Velocidade de reações químicas
+    • Fatores que afetam a velocidade: concentração, temperatura, superfície de contato, catalisadores
+    • Teoria das colisões
+    • Energia de ativação
+    • Catálise
+    • Revisão integrada dos conceitos principais do curso
+    • Conexões entre os tópicos estudados
+Aula Prática 15: Velocidade das Reações
+Exercícios (5):
+
+    1. Cite 4 fatores que aumentam a velocidade de uma reação química.
+
+    2. Por que alimentos se conservam melhor na geladeira?
+
+    3. Explique por que um comprimido efervescente triturado reage mais rápido que um inteiro.
+
+    4. O que é um catalisador? Dê exemplos do cotidiano.
+
+    5. Relacione os seguintes conceitos estudados no curso: mol, estequiometria, equilíbrio químico e cinética.
+
+Experimentos Simples (2):
+
+    1. Fatores que afetam velocidade de reação
+
+        ◦ Materiais: comprimido efervescente, água fria, água quente, comprimido inteiro e triturado, copos
+        ◦ Procedimento: Testar reação do comprimido em diferentes condições, medir tempo
+        ◦ Objetivo: Demonstrar efeitos de temperatura e superfície de contato na velocidade
+
+    2. Catálise enzimática caseira
+
+        ◦ Materiais: água oxigenada, batata crua (contém catalase), copo
+        ◦ Procedimento: Adicionar pedaço de batata à água oxigenada, observar formação rápida de bolhas (O₂)
+        ◦ Objetivo: Demonstrar ação de catalisador biológico (enzima) acelerando decomposição
+
+
+
+📋 Observações Gerais
+Estrutura das Aulas
+    • Aulas Teóricas: 2h de duração, com exposição dialogada, uso de exemplos do cotidiano e recursos visuais
+    • Aulas Práticas: 2h de duração, com resolução de exercícios (1h) e realização de experimentos (1h)
+Material Necessário para os Experimentos
+A maioria dos experimentos utiliza materiais de baixo custo e fácil acesso:
+
+    • Materiais de cozinha: sal, açúcar, vinagre, bicarbonato, óleo, mel, água
+    • Utensílios: copos, colheres, balança de cozinha, termômetro
+    • Materiais escolares: régua, papel, canetas, cartolina
+    • Outros: velas, balões, fios, pilhas, LED, objetos cotidianos
+Avaliações
+    • P1 (24/04): Blocos 1-7 (Unidades, Mol, Estequiometria, Estrutura Atômica, Tabela Periódica, Propriedades Periódicas, Ligações)
+    • P2 (26/06): Blocos 8-15 (Ligações Covalentes, Forças Intermoleculares, Soluções, Reações, Ácidos e Bases, Termoquímica, Equilíbrio, Cinética)
+Recursos Pedagógicos Recomendados
+    • Modelos moleculares (kits ou caseiros)
+    • Tabela periódica ampliada
+    • Simulações computacionais (PhET, Chemix)
+    • Vídeos educativos curtos
+    • Exercícios interativos online
+
+
+
+Elaborado para QG101 - Química I
+1º Semestre de 2026
+Instituto de Química - UNICAMP
+
