@@ -1,0 +1,457 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+\setlist{nosep, topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=3pt}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+\sffamily
+
+\newcommand{\questaoheader}[1]{%
+  \begin{center}
+  {\small\sffamily QG101 --- Bloco 13: Termoquímica Básica
+  \hfill Questão #1}
+  \end{center}
+  \vspace{-0.3cm}
+  \noindent\rule{\textwidth}{0.6pt}
+  \vspace{0.1cm}
+}
+
+\newcommand{\resolucaosep}{%
+  \vspace{0.4cm}
+  \noindent\rule{\textwidth}{0.4pt}
+  \vspace{0.1cm}
+
+  \noindent{\bf Resolução:}
+  \vspace{0.2cm}
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% ================================================================
+% Questão 1
+% ================================================================
+\questaoheader{1}
+
+\noindent\textbf{Questão 1.}
+Classifique cada processo abaixo como \textbf{exotérmico} ou
+\textbf{endotérmico}, justificando em uma frase:
+\begin{enumerate}
+  \item Combustão de madeira.
+  \item Derretimento de gelo.
+  \item Fotossíntese.
+  \item Respiração celular.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item \textbf{Exotérmico}: a combustão oxida a celulose e outros
+        compostos da madeira, liberando calor e luz para o ambiente
+        ($\Delta H < 0$).
+
+  \item \textbf{Endotérmico}: o gelo absorve calor do ambiente para romper
+        as ligações de hidrogênio da estrutura cristalina e se tornar líquido
+        ($\Delta H > 0$).
+
+  \item \textbf{Endotérmico}: a fotossíntese usa energia luminosa (solar)
+        para converter \ce{CO2} e \ce{H2O} em glicose e \ce{O2} ---
+        armazena energia no sistema ($\Delta H > 0$).
+
+  \item \textbf{Exotérmico}: a respiração celular oxida a glicose,
+        liberando energia química na forma de ATP e calor para o organismo
+        ($\Delta H < 0$).
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 2
+% ================================================================
+\questaoheader{2}
+
+\noindent\textbf{Questão 2.}
+Uma reação química libera $50$~kJ para a vizinhança.
+\begin{enumerate}
+  \item Qual é o sinal de $\Delta H$ dessa reação?
+  \item A reação é exotérmica ou endotérmica? Justifique.
+  \item Esboce, em palavras, como seria o diagrama de energia
+        (reagentes x produtos) dessa reação.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item $\Delta H = -50$~kJ (sinal \textbf{negativo}): por convenção,
+        $\Delta H = H_{\text{produtos}} - H_{\text{reagentes}}$; como o
+        sistema perde energia para a vizinhança, os produtos ficam num
+        nível de entalpia mais baixo que os reagentes.
+
+  \item A reação é \textbf{exotérmica}: energia é liberada pelo sistema
+        para a vizinhança ($\Delta H < 0$), e a vizinhança aquece.
+
+  \item O diagrama de energia (entalpia vs.\ coordenada de reação) mostra
+        os \textbf{reagentes num patamar mais alto}, uma barreira de
+        ativação acima deles (energia de ativação), e os \textbf{produtos
+        num patamar mais baixo}, com a diferença de altura correspondendo
+        a 50~kJ --- a energia liberada na forma de calor.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 3
+% ================================================================
+\questaoheader{3}
+
+\noindent\textbf{Questão 3.}
+Calcule a quantidade de calor necessária para aquecer $100$~g de água de
+$25$\oC{} a $75$\oC{} (calor específico da água
+$= 4{,}18$~J~g$^{-1}$\oC$^{-1}$). Expresse o resultado em joules e em
+quilojoules.
+
+\resolucaosep
+
+Usando $q = m \cdot c \cdot \Delta T$:
+
+\begin{align*}
+\Delta T &= 75 - 25 = 50\text{\oC}\\
+q &= 100\,\text{g} \times 4{,}18\,\text{J\,g}^{-1}\text{\oC}^{-1}
+     \times 50\text{\oC}\\
+q &= \mathbf{20\,900\,\text{J}} = \mathbf{20{,}9\,\text{kJ}}
+\end{align*}
+
+O calor necessário é \textbf{positivo} (o sistema absorve energia), o que
+é coerente com um processo de aquecimento.
+
+\clearpage
+
+% ================================================================
+% Questão 4
+% ================================================================
+\questaoheader{4}
+
+\noindent\textbf{Questão 4.}
+Dada a equação termoquímica:
+$$\ce{C(s) + O2(g) -> CO2(g)} \qquad \Delta H = -394~\text{kJ/mol}$$
+\begin{enumerate}
+  \item O que significa o sinal negativo de $\Delta H$?
+  \item Quantos kJ são liberados na combustão completa de $2{,}00$~mol de
+        \ce{C(s)}?
+  \item Quantos kJ são liberados na combustão completa de $6{,}0$~g de
+        \ce{C(s)} ($M = 12{,}0$~g/mol)?
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item O sinal negativo indica que a reação é \textbf{exotérmica}: o
+        sistema (carbono + oxigênio) libera 394~kJ de calor para a
+        vizinhança a cada mol de \ce{C} consumido. Os produtos possuem
+        entalpia menor que os reagentes.
+
+  \item
+  \[
+    q = 2{,}00\,\text{mol} \times 394\,\text{kJ/mol}
+      = \mathbf{788\,\text{kJ}}
+  \]
+  São liberados 788~kJ.
+
+  \item Número de mols de \ce{C}:
+  \[
+    n = \frac{6{,}0\,\text{g}}{12{,}0\,\text{g/mol}} = 0{,}50\,\text{mol}
+  \]
+  \[
+    q = 0{,}50\,\text{mol} \times 394\,\text{kJ/mol}
+      = \mathbf{197\,\text{kJ}}
+  \]
+  São liberados 197~kJ.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 5
+% ================================================================
+\questaoheader{5}
+
+\noindent\textbf{Questão 5.}
+Por que a transpiração resfria o corpo? Explique em termos de processo
+endotérmico/exotérmico e do tipo de mudança de estado envolvida.
+
+\resolucaosep
+
+A transpiração envolve a \textbf{vaporização} (evaporação) do suor ---
+passagem do estado \textbf{líquido para o gasoso}.
+
+A vaporização é um processo \textbf{endotérmico}: as moléculas de água
+precisam absorver energia para vencer as forças intermoleculares
+(ligações de hidrogênio) que as mantêm no líquido e escapar para a fase
+de vapor. Essa energia é retirada da \emph{superfície da pele} e dos
+tecidos próximos, que se resfriam.
+
+Em termos quantitativos, a entalpia de vaporização da água é elevada
+($\approx 2260$~J/g a 37\oC), o que torna a transpiração um mecanismo
+de termorregulação muito eficiente: basta evaporar pequenas quantidades
+de suor para dissipar grandes quantidades de calor corporal.
+
+\clearpage
+
+% ================================================================
+% Questão 6
+% ================================================================
+\questaoheader{6}
+
+\noindent\textbf{Questão 6.}
+São conhecidos os seguintes dados termoquímicos:
+\begin{align*}
+\ce{H2(g) + 1/2 O2(g) &-> H2O(l)} &\Delta H_1 &= -286~\text{kJ/mol}\\
+\ce{H2(g) + 1/2 O2(g) &-> H2O(g)} &\Delta H_2 &= -242~\text{kJ/mol}
+\end{align*}
+\begin{enumerate}
+  \item Usando a Lei de Hess, calcule o $\Delta H$ da vaporização da água,
+        $\ce{H2O(l) -> H2O(g)}$.
+  \item O valor obtido deveria ser positivo ou negativo? Esse resultado é
+        coerente com o tipo de processo (fornecimento ou liberação de
+        calor)?
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item Pela Lei de Hess, combinamos as equações de modo que os termos
+        indesejados se cancelem. Invertemos a equação 1 (mudando o sinal
+        de $\Delta H_1$) e somamos com a equação 2:
+
+        \begin{align*}
+          \text{(1 invertida):}\quad
+          \ce{H2O(l) &-> H2(g) + 1/2 O2(g)}
+          &\Delta H &= +286\,\text{kJ/mol}\\
+          \text{(2):}\quad
+          \ce{H2(g) + 1/2 O2(g) &-> H2O(g)}
+          &\Delta H &= -242\,\text{kJ/mol}
+        \end{align*}
+
+        Somando:
+        \[
+          \ce{H2O(l) -> H2O(g)}
+          \qquad
+          \Delta H_{\text{vap}} = 286 + (-242) = \mathbf{+44\,\text{kJ/mol}}
+        \]
+
+  \item O valor é \textbf{positivo}, o que é coerente: a vaporização é um
+        processo \textbf{endotérmico} --- o sistema (água) precisa absorver
+        energia para romper as ligações de hidrogênio e passar para o
+        estado gasoso.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 7
+% ================================================================
+\questaoheader{7}
+
+\noindent\textbf{Questão 7.}
+Uma amostra de $100$~g de água e uma amostra de $100$~g de ferro
+($c = 0{,}45$~J~g$^{-1}$\oC$^{-1}$), inicialmente à mesma temperatura,
+recebem a mesma quantidade de calor ($5{,}0$~kJ cada).
+\begin{enumerate}
+  \item Calcule a variação de temperatura ($\Delta T$) de cada amostra.
+  \item Qual delas esquenta mais? Relacione o resultado ao conceito de
+        calor específico e a um exemplo do cotidiano (ex.: areia da praia
+        x água do mar).
+\end{enumerate}
+
+\resolucaosep
+
+Usando $q = m \cdot c \cdot \Delta T \;\Rightarrow\; \Delta T = q/(m \cdot c)$:
+
+\begin{enumerate}
+  \item
+    \begin{itemize}
+      \item \textbf{Água} ($c = 4{,}18$~J~g$^{-1}$\oC$^{-1}$):
+        \[
+          \Delta T_{\text{água}}
+          = \frac{5000\,\text{J}}{100\,\text{g}
+            \times 4{,}18\,\text{J\,g}^{-1}\text{\oC}^{-1}}
+          = \frac{5000}{418}
+          \approx \mathbf{12{,}0\text{\oC}}
+        \]
+
+      \item \textbf{Ferro} ($c = 0{,}45$~J~g$^{-1}$\oC$^{-1}$):
+        \[
+          \Delta T_{\text{ferro}}
+          = \frac{5000\,\text{J}}{100\,\text{g}
+            \times 0{,}45\,\text{J\,g}^{-1}\text{\oC}^{-1}}
+          = \frac{5000}{45}
+          \approx \mathbf{111\text{\oC}}
+        \]
+    \end{itemize}
+
+  \item O \textbf{ferro} esquenta muito mais (111\oC vs.\ 12\oC) porque
+        seu calor específico é quase 10 vezes menor que o da água. Um
+        calor específico baixo significa que pouca energia é necessária
+        para elevar a temperatura de 1\,g em 1\oC.
+
+        Exemplo do cotidiano: a \textbf{areia da praia} (baixo $c$)
+        esquenta rapidamente ao sol e fica quase insuportável ao toque,
+        enquanto a \textbf{água do mar} (alto $c$) permanece bem mais
+        fria --- ela absorve muito mais calor para a mesma variação de
+        temperatura.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 8
+% ================================================================
+\questaoheader{8}
+
+\noindent\textbf{Questão 8.}
+A síntese da amônia é descrita por:
+$$\ce{N2(g) + 3H2(g) -> 2NH3(g)} \qquad \Delta H = -92~\text{kJ/mol}$$
+\begin{enumerate}
+  \item Qual o valor de $\Delta H$ para a formação de \textbf{1 mol} de
+        \ce{NH3(g)} a partir de \ce{N2} e \ce{H2}?
+  \item Escreva a equação termoquímica da reação \textbf{inversa}
+        (decomposição de $2$~mol de \ce{NH3}) e indique seu $\Delta H$.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item A equação fornecida produz 2~mol de \ce{NH3} com $\Delta H =
+        -92$~kJ. Para 1~mol de \ce{NH3}, divide-se tudo por 2 (a
+        estequiometria e o $\Delta H$):
+
+        \[
+          \tfrac{1}{2}\ce{N2(g) + \tfrac{3}{2}H2(g) -> NH3(g)}
+          \qquad
+          \Delta H = \frac{-92}{2} = \mathbf{-46\,\text{kJ/mol}}
+        \]
+
+  \item Invertendo a reação original (sentido inverso), o sinal de
+        $\Delta H$ também se inverte:
+
+        \[
+          \ce{2NH3(g) -> N2(g) + 3H2(g)}
+          \qquad
+          \Delta H = \mathbf{+92\,\text{kJ/mol}}
+        \]
+
+        A decomposição da amônia é \textbf{endotérmica}: requer
+        fornecimento de energia para romper as ligações N--H e reforjar
+        a tripla ligação N$\equiv$N e as ligações H--H.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 9
+% ================================================================
+\questaoheader{9}
+
+\noindent\textbf{Questão 9.}
+Um gás, ao absorver $300$~J de calor da vizinhança, se expande e realiza
+$120$~J de trabalho sobre a vizinhança.
+\begin{enumerate}
+  \item Identifique o sinal de $q$ e de $w$ nesse processo, usando a
+        convenção $\Delta U = q + w$ (em que $w$ é o trabalho realizado
+        \emph{sobre} o sistema).
+  \item Calcule $\Delta U$ do gás.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item Na convenção $\Delta U = q + w$ (convenção IUPAC/química):
+        \begin{itemize}
+          \item $q$: calor \emph{absorvido pelo sistema} → \textbf{positivo}.
+                O gás absorbe 300~J $\Rightarrow q = +300$~J.
+
+          \item $w$: trabalho realizado \emph{sobre o sistema}. O sistema
+                (gás) se \emph{expande} e realiza trabalho \emph{sobre a
+                vizinhança} (trabalho feito pelo sistema), portanto o
+                trabalho feito \emph{sobre o sistema} é negativo:
+                $w = -120$~J.
+        \end{itemize}
+
+  \item
+        \[
+          \Delta U = q + w = 300 + (-120) = \mathbf{+180\,\text{J}}
+        \]
+        A energia interna do gás \textbf{aumentou} em 180~J: o sistema
+        ganhou mais energia via calor do que cedeu via trabalho de
+        expansão.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 10
+% ================================================================
+\questaoheader{10}
+
+\noindent\textbf{Questão 10.}
+\textbf{Calorimetria.} Um pedaço de $50{,}0$~g de um metal, inicialmente a
+$100{,}0$\oC, é colocado em $100{,}0$~g de água a $20{,}0$\oC. O sistema
+atinge o equilíbrio térmico a $24{,}0$\oC. Use
+$c_{\text{água}} = 4{,}18$~J~g$^{-1}$\oC$^{-1}$ e admita que todo o calor
+perdido pelo metal é ganho pela água (sistema isolado).
+\begin{enumerate}
+  \item Calcule o calor ganho pela água.
+  \item Calcule o calor específico do metal, sabendo que ele perde a
+        mesma quantidade de calor que a água ganha.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item \textbf{Calor ganho pela água} ($\Delta T_{\text{água}} =
+        24{,}0 - 20{,}0 = 4{,}0$\oC):
+        \[
+          q_{\text{água}}
+          = m \cdot c \cdot \Delta T
+          = 100{,}0\,\text{g}
+            \times 4{,}18\,\text{J\,g}^{-1}\text{\oC}^{-1}
+            \times 4{,}0\text{\oC}
+          = \mathbf{1672\,\text{J}}
+        \]
+
+  \item O metal perde $q_{\text{metal}} = -1672$~J (sinal negativo:
+        o metal cede calor).
+
+        $\Delta T_{\text{metal}} = 24{,}0 - 100{,}0 = -76{,}0$\oC
+
+        Isolando $c_{\text{metal}}$:
+        \[
+          q_{\text{metal}}
+            = m_{\text{metal}} \cdot c_{\text{metal}} \cdot \Delta T_{\text{metal}}
+        \]
+        \[
+          -1672
+            = 50{,}0 \times c_{\text{metal}} \times (-76{,}0)
+        \]
+        \[
+          c_{\text{metal}}
+            = \frac{1672}{50{,}0 \times 76{,}0}
+            = \frac{1672}{3800}
+            \approx \mathbf{0{,}44\,\text{J\,g}^{-1}\text{\oC}^{-1}}
+        \]
+
+        Esse valor é muito próximo do calor específico do \textbf{ferro}
+        ($c = 0{,}45$~J~g$^{-1}$\oC$^{-1}$), sugerindo que o metal em
+        questão pode ser o ferro.
+\end{enumerate}
+
+\end{document}

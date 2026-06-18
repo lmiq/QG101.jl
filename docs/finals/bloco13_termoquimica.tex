@@ -1,0 +1,193 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+
+\setlist[itemize,1]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\setlist[enumerate,1]{leftmargin=*, itemsep=2pt, topsep=2pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries QG101 -- Química Geral}\\[4pt]
+  {\large\bfseries Bloco 13 -- Termoquímica Básica}\\[2pt]
+  \textit{Material didático -- Aula Teórica 13}
+\end{center}
+
+\bigskip
+
+% ================================================================
+\section*{1. Energia e transformações químicas}
+
+Toda transformação química envolve troca de energia entre o
+\textbf{sistema} (as substâncias que participam da reação) e a
+\textbf{vizinhança} (tudo o que está em volta). Essa troca pode ocorrer
+na forma de \textbf{calor} ($q$) e/ou \textbf{trabalho} ($w$).
+
+A \textbf{Termoquímica} estuda especificamente o calor liberado ou
+absorvido pelas reações químicas, geralmente sob pressão constante (a
+pressão atmosférica, na maioria dos experimentos de laboratório e do
+cotidiano).
+
+% ================================================================
+\section*{2. Entalpia e variação de entalpia}
+
+A \textbf{entalpia} ($H$) é uma propriedade do sistema relacionada à sua
+energia interna ($U$) e ao trabalho de expansão contra a pressão externa:
+$H = U + PV$. Como $H$ é uma \textbf{função de estado}, o que importa nas
+reações químicas é sua \textbf{variação}:
+$$\Delta H = H_{\text{produtos}} - H_{\text{reagentes}}$$
+
+Em um processo à pressão constante, $\Delta H$ é exatamente igual ao calor
+trocado com a vizinhança: $\Delta H = q_p$. Por isso $\Delta H$ é a
+grandeza termoquímica mais usada no dia a dia do laboratório.
+
+% ================================================================
+\section*{3. Reações exotérmicas e endotérmicas}
+
+\begin{itemize}
+\item \textbf{Exotérmica} ($\Delta H < 0$): o sistema \textbf{libera}
+  calor para a vizinhança, que se aquece. A entalpia dos produtos é
+  \textbf{menor} que a dos reagentes. Exemplos: combustões, a maioria das
+  reações de neutralização, respiração celular.
+\item \textbf{Endotérmica} ($\Delta H > 0$): o sistema \textbf{absorve}
+  calor da vizinhança, que se esfria. A entalpia dos produtos é
+  \textbf{maior} que a dos reagentes. Exemplos: fotossíntese, fusão do
+  gelo, muitas dissoluções salinas (ex.: \ce{NH4NO3} em água).
+\end{itemize}
+
+\begin{center}
+\includesvg[width=0.92\textwidth]{figuras/bloco13_fig1_diagrama_energia}
+
+{\small Figura 1 -- Diagramas de energia para reações exotérmica e
+endotérmica.}
+\end{center}
+
+% ================================================================
+\section*{4. Calor específico e capacidade calorífica}
+
+O \textbf{calor específico} ($c$) é a quantidade de calor necessária para
+elevar em $1$\oC{} a temperatura de $1$~g de uma substância. A relação
+entre calor trocado, massa e variação de temperatura é:
+$$q = m \, c \, \Delta T$$
+
+A \textbf{capacidade calorífica} ($C = m \, c$) refere-se a uma amostra
+específica (não à substância em geral) e tem unidade J/\oC.
+
+A água tem calor específico excepcionalmente alto
+($c = 4{,}18$~J~g$^{-1}$\oC$^{-1}$), bem maior que o de metais comuns como
+o ferro ($c \approx 0{,}45$~J~g$^{-1}$\oC$^{-1}$). Isso significa que, para
+a mesma massa e o mesmo calor fornecido, a água esquenta (ou esfria) muito
+mais lentamente -- por isso a areia da praia fica escaldante ao meio-dia
+enquanto o mar permanece ameno, e por isso a água é usada em sistemas de
+resfriamento e na regulação da temperatura corporal.
+
+% ================================================================
+\section*{5. Primeira Lei da Termodinâmica}
+
+A energia não pode ser criada nem destruída, apenas transferida ou
+transformada. Para um sistema fechado, isso se expressa como:
+$$\Delta U = q + w$$
+em que $q$ é o calor \textbf{recebido} pelo sistema (positivo se
+absorvido, negativo se liberado) e $w$ é o trabalho realizado
+\textbf{sobre} o sistema (positivo se a vizinhança realiza trabalho sobre
+o sistema; negativo se o sistema realiza trabalho de expansão sobre a
+vizinhança, como ao empurrar o ar atmosférico durante a liberação de um
+gás em uma combustão).
+
+\textbf{Exemplo:} se um sistema absorve $300$~J de calor ($q = +300$~J) e
+se expande, realizando $120$~J de trabalho sobre a vizinhança
+($w = -120$~J), então:
+$$\Delta U = 300 + (-120) = +180~\text{J}$$
+
+\clearpage
+
+% ================================================================
+\section*{6. Equações termoquímicas}
+
+Uma equação termoquímica é uma equação balanceada acompanhada do valor de
+$\Delta H$ correspondente. Três regras práticas:
+
+\begin{enumerate}
+\item $\Delta H$ refere-se exatamente às quantidades (em mol) indicadas
+  pelos coeficientes estequiométricos da equação.
+\item Se a equação for \textbf{invertida}, o sinal de $\Delta H$ também se
+  inverte.
+\item Se a equação for \textbf{multiplicada} por um fator $k$, $\Delta H$
+  é multiplicado pelo mesmo fator $k$.
+\end{enumerate}
+
+O \textbf{estado físico} de cada substância também importa: a combustão do
+metano formando água \textbf{líquida} libera mais energia do que a mesma
+combustão formando água \textbf{vapor}, pois a condensação do vapor de
+água libera calor adicional:
+$$\ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)} \qquad \Delta H = -890~\text{kJ/mol}$$
+$$\ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(g)} \qquad \Delta H = -802~\text{kJ/mol}$$
+
+% ================================================================
+\section*{7. Lei de Hess}
+
+Como $H$ é uma função de estado, $\Delta H$ de uma reação \textbf{não
+depende do caminho} percorrido -- apenas dos estados inicial e final. A
+\textbf{Lei de Hess} afirma que, se uma reação puder ser escrita como a
+soma de duas ou mais etapas, seu $\Delta H$ é igual à \textbf{soma} dos
+$\Delta H$ dessas etapas.
+
+\textbf{Exemplo:} qual é o $\Delta H$ de formação do \ce{CO} a partir de
+\ce{C} e \ce{O2}, dado que:
+\begin{align*}
+\ce{C(s) + O2(g) &-> CO2(g)} &\Delta H_1 &= -394~\text{kJ/mol (caminho direto)}\\
+\ce{CO(g) + 1/2 O2(g) &-> CO2(g)} &\Delta H_3 &= -283~\text{kJ/mol}
+\end{align*}
+
+A reação procurada, $\ce{C(s) + 1/2 O2(g) -> CO(g)}$ ($\Delta H_2$), somada
+à segunda equação dada reproduz a primeira. Logo:
+$$\Delta H_1 = \Delta H_2 + \Delta H_3 \quad\Longrightarrow\quad
+\Delta H_2 = \Delta H_1 - \Delta H_3 = -394 - (-283) = -111~\text{kJ/mol}$$
+
+\begin{center}
+\includesvg[width=0.62\textwidth]{figuras/bloco13_fig2_lei_hess}
+
+{\small Figura 2 -- Ciclo de Lei de Hess: o caminho direto
+($\Delta H_1$) é igual à soma dos caminhos indiretos ($\Delta H_2 + \Delta H_3$).}
+\end{center}
+
+% ================================================================
+\section*{8. Síntese}
+
+\begin{center}
+\begin{tabular}{p{3.2cm}p{5.4cm}p{5.6cm}}
+\toprule
+Conceito & Ideia central & Fórmula / critério \\
+\midrule
+Entalpia & Energia trocada à pressão constante & $\Delta H = H_{\text{prod}} - H_{\text{reag}}$ \\
+Exo/endotérmica & Direção do fluxo de calor & $\Delta H < 0$ / $\Delta H > 0$ \\
+Calor específico & Energia para variar $1$\oC{} de $1$~g & $q = mc\Delta T$ \\
+1.ª Lei & Conservação de energia & $\Delta U = q + w$ \\
+Equação termoquímica & $\Delta H$ depende de coeficientes e estados físicos & inverter $\Rightarrow$ troca sinal; multiplicar $\Rightarrow$ escala \\
+Lei de Hess & $\Delta H$ não depende do caminho & $\Delta H_{\text{total}} = \sum \Delta H_{\text{etapas}}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\bigskip
+\noindent\textit{A lista de exercícios correspondente a este bloco está no
+arquivo \texttt{bloco13\_lista\_exercicios.pdf}.}
+
+\end{document}

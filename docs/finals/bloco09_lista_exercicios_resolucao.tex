@@ -1,0 +1,440 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\renewcommand{\baselinestretch}{1.0}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+\setlist{nosep, topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=3pt}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+\sffamily
+
+\newcommand{\questaoheader}[1]{%
+  \begin{center}
+  {\small\sffamily QG101 --- Bloco 9: Forças Intermoleculares e Estados da Matéria
+  \hfill Questão #1}
+  \end{center}
+  \vspace{-0.3cm}
+  \noindent\rule{\textwidth}{0.6pt}
+  \vspace{0.1cm}
+}
+
+\newcommand{\resolucaosep}{%
+  \vspace{0.4cm}
+  \noindent\rule{\textwidth}{0.4pt}
+  \vspace{0.1cm}
+
+  \noindent{\bf Resolução:}
+  \vspace{0.2cm}
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% ================================================================
+% Questão 1
+% ================================================================
+\questaoheader{1}
+
+\noindent\textbf{Questão 1.}
+Coloque as substâncias \ce{CH4}, \ce{H2O}, \ce{NH3} e \ce{Ne} em ordem
+\textbf{crescente} de ponto de ebulição e indique, para cada uma, o
+principal tipo de força intermolecular envolvido.
+
+\resolucaosep
+
+\noindent Ordem crescente de ponto de ebulição:
+$$\ce{Ne} < \ce{CH4} < \ce{NH3} < \ce{H2O}$$
+
+\begin{itemize}
+  \item \ce{Ne} (PE $= -246$\oC): átomo nobre, muito pequeno e de baixa
+        polarizabilidade --- \textbf{dispersão de London} (forças muito fracas).
+  \item \ce{CH4} (PE $= -161$\oC): molécula apolar e de massa molar pequena ---
+        \textbf{dispersão de London} (mais forte que no Ne por ter mais
+        elétrons e maior polarizabilidade).
+  \item \ce{NH3} (PE $= -33$\oC): possui H ligado a N (muito eletronegativo) ---
+        \textbf{ligações de hidrogênio}, consideravelmente mais fortes que as
+        forças de London do \ce{CH4}.
+  \item \ce{H2O} (PE $= 100$\oC): O é ainda mais eletronegativo que N e cada
+        molécula pode formar até 4 ligações de hidrogênio (2 doando H, 2
+        aceitando) --- \textbf{ligações de hidrogênio} (as mais fortes do
+        conjunto).
+\end{itemize}
+
+\clearpage
+
+% ================================================================
+% Questão 2
+% ================================================================
+\questaoheader{2}
+
+\noindent\textbf{Questão 2.}
+A tabela abaixo apresenta os pontos de ebulição dos hidretos do grupo 16:
+
+\begin{center}
+\begin{tabular}{lcccc}
+\hline
+ & \ce{H2S} & \ce{H2Se} & \ce{H2Te} & \ce{H2O} \\
+\hline
+P.E. (\oC) & $-60$ & $-41$ & $-2$ & $100$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+  \item Explique por que o ponto de ebulição cresce de \ce{H2S} para
+        \ce{H2Te}.
+  \item Se a água seguisse a mesma tendência (apenas forças de London),
+        seu ponto de ebulição seria de aproximadamente $-90$\oC. Explique
+        por que o valor real é tão maior.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item De \ce{H2S} para \ce{H2Te} as moléculas ficam progressivamente
+        maiores: o número de elétrons cresce (16 → 34 → 52), aumentando a
+        \textbf{polarizabilidade eletrônica}. Dipólos instantâneos mais
+        intensos geram forças de dispersão de London mais fortes, exigindo
+        mais energia para vaporizar e, portanto, elevando o ponto de
+        ebulição.
+
+  \item A água apresenta \textbf{ligações de hidrogênio} muito fortes:
+        o oxigênio é altamente eletronegativo ($\chi = 3{,}44$) e de raio
+        atômico pequeno, tornando o vínculo O--H muito polar. Cada molécula
+        pode formar até 4 ligações H (2 como doadora, 2 como aceitadora),
+        criando uma rede coesiva intensa. Para romper essas interações e
+        vaporizar a água é necessária energia muito superior à prevista
+        pelas forças de London sozinhas, elevando o PE real para 100\oC
+        em vez de $\approx -90$\oC.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 3
+% ================================================================
+\questaoheader{3}
+
+\noindent\textbf{Questão 3.}
+Para cada uma das espécies abaixo, identifique o \textbf{principal} tipo
+de força intermolecular presente no estado líquido/sólido:
+\begin{enumerate}
+  \item \ce{HF}
+  \item \ce{CO2}
+  \item \ce{CH4}
+  \item \ce{NH3}
+  \item \ce{I2}
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item \ce{HF}: \textbf{ligação de hidrogênio} (H ligado ao F, o elemento
+        mais eletronegativo; forças H muito intensas).
+  \item \ce{CO2}: \textbf{dispersão de London} (molécula linear e simétrica
+        --- apolar; os dipolos C=O se cancelam).
+  \item \ce{CH4}: \textbf{dispersão de London} (molécula apolar de baixo
+        peso molecular).
+  \item \ce{NH3}: \textbf{ligação de hidrogênio} (H ligado ao N
+        eletronegativo; também há par solitário no N que aceita H de outra
+        molécula).
+  \item \ce{I2}: \textbf{dispersão de London} (molécula apolar, porém
+        grande e com muitos elétrons, resultando em forças de London
+        relativamente fortes --- \ce{I2} é sólido a 25\oC).
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 4
+% ================================================================
+\questaoheader{4}
+
+\noindent\textbf{Questão 4.}
+Explique, em termos de estrutura e de ligações de hidrogênio, por que o
+gelo flutua na água líquida. Por que essa propriedade é considerada
+anômala em relação à maioria das substâncias?
+
+\resolucaosep
+
+No gelo, cada molécula de água forma \textbf{4 ligações de hidrogênio}
+com vizinhas (2 doando H, 2 aceitando), organizando-se numa
+\textbf{rede hexagonal aberta} (estrutura cristalina com amplos canais
+vazios). Essa geometria fixa faz o gelo ocupar \emph{mais} volume por
+molécula do que a água líquida, resultando em \textbf{menor densidade}
+do sólido ($\approx 0{,}92$~g/cm$^3$) em relação ao líquido
+($\approx 1{,}00$~g/cm$^3$).
+
+Quando o gelo funde, parte das ligações H se rompe, permitindo que as
+moléculas se aproximem e se empacotem de forma mais compacta --- daí a
+densidade aumentar ao fundir.
+
+A anomalia: na \textbf{maioria das substâncias} o sólido é mais denso
+que o líquido (o empacotamento ordenado do cristal gera maior densidade),
+portanto o sólido afunda no próprio líquido. A água inverte esse
+comportamento por causa da estrutura aberta do gelo imposta pelas
+ligações de hidrogênio direcionais.
+
+\clearpage
+
+% ================================================================
+% Questão 5
+% ================================================================
+\questaoheader{5}
+
+\noindent\textbf{Questão 5.}
+O etanol (\ce{C2H5OH}) é completamente solúvel em água, mas o hexano
+(\ce{C6H14}) praticamente não se dissolve. Explique essa diferença usando
+o princípio ``semelhante dissolve semelhante'' e os tipos de força
+intermolecular envolvidos em cada caso.
+
+\resolucaosep
+
+\begin{itemize}
+  \item \textbf{Etanol em água}: o etanol possui o grupo hidroxila (--OH),
+        que forma \textbf{ligações de hidrogênio} com as moléculas de água.
+        As interações soluto--solvente (etanol--água) são do mesmo tipo das
+        interações solvente--solvente (água--água), tornando a dissolução
+        energeticamente favorável. Como ambos são polares e capazes de
+        estabelecer ligações H, eles se misturam em qualquer proporção
+        (\emph{semelhante dissolve semelhante}).
+
+  \item \textbf{Hexano em água}: o hexano é completamente apolar e só
+        apresenta \textbf{forças de dispersão de London}. Ao tentar se
+        dissolver em água, seria necessário romper a forte rede de ligações
+        de hidrogênio da água sem substituí-la por interações igualmente
+        fortes com o hexano --- processo energeticamente desfavorável. As
+        moléculas de água se ``excluem'' do hexano, que permanece segregado.
+\end{itemize}
+
+Em resumo: polar dissolve polar (etanol em água); apolar não dissolve em
+polar (hexano em água).
+
+\clearpage
+
+% ================================================================
+% Questão 6
+% ================================================================
+\questaoheader{6}
+
+\noindent\textbf{Questão 6.}
+O butano (\ce{C4H10}, $M = 58$~g/mol) ferve a $-1$\oC, enquanto a acetona
+(\ce{C3H6O}, $M = 58$~g/mol) ferve a $56$\oC.
+\begin{enumerate}
+  \item As duas substâncias têm a mesma massa molar. O que explica a
+        grande diferença nos pontos de ebulição?
+  \item Quais forças intermoleculares atuam em cada uma?
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item A diferença se deve à \textbf{polaridade molecular}: o butano é
+        apolar, enquanto a acetona possui uma ligação \ce{C=O} (grupo
+        carbonila) com grande diferença de eletronegatividade, gerando um
+        \textbf{dipolo permanente} intenso. Forças dipolo--dipolo
+        adicionam-se às forças de London na acetona, exigindo
+        $\approx 57$\oC a mais para vaporizar, mesmo com a mesma massa
+        molar.
+
+  \item
+    \begin{itemize}
+      \item Butano (\ce{C4H10}): apenas \textbf{dispersão de London}
+            (molécula apolar).
+      \item Acetona (\ce{C3H6O}): \textbf{dispersão de London} +
+            \textbf{interações dipolo--dipolo} (molécula polar com dipolo
+            permanente no grupo C=O).
+    \end{itemize}
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 7
+% ================================================================
+\questaoheader{7}
+
+\noindent\textbf{Questão 7.}
+À temperatura ambiente, \ce{F2} e \ce{Cl2} são gases, \ce{Br2} é líquido e
+\ce{I2} é sólido, embora todos sejam moléculas apolares formadas pelo
+mesmo tipo de ligação covalente simples.
+\begin{enumerate}
+  \item Qual força intermolecular é responsável pelas diferenças de
+        estado físico observadas?
+  \item Relacione essa tendência ao número de elétrons e à
+        polarizabilidade de cada molécula.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item A força responsável é a \textbf{dispersão de London} (forças de
+        London ou forças de dispersão de van der Waals). Todas as moléculas
+        são apolares, portanto não há dipolo permanente; as atrações
+        surgem de \emph{dipolos instantâneos} induzidos por flutuações
+        eletrônicas.
+
+  \item À medida que se desce no grupo 17, o número de elétrons cresce
+        drasticamente (\ce{F2}: 18 e$^-$; \ce{Cl2}: 34 e$^-$; \ce{Br2}:
+        70 e$^-$; \ce{I2}: 106 e$^-$). Mais elétrons em orbitais mais
+        difusos significa maior \textbf{polarizabilidade}: a nuvem
+        eletrônica se deforma mais facilmente, gerando dipolos instantâneos
+        maiores e interações de London mais intensas. Por isso:
+        \begin{itemize}
+          \item \ce{F2} e \ce{Cl2}: forças de London fracas → gases.
+          \item \ce{Br2}: forças intermediárias → líquido.
+          \item \ce{I2}: forças de London fortes → sólido.
+        \end{itemize}
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 8
+% ================================================================
+\questaoheader{8}
+
+\noindent\textbf{Questão 8.}
+A glicerina (com três grupos \ce{-OH} por molécula) é muito mais viscosa
+que a água, que por sua vez é mais viscosa que a gasolina.
+\begin{enumerate}
+  \item Relacione a viscosidade de cada líquido com o tipo e a quantidade
+        de forças intermoleculares presentes.
+  \item Por que a água apresenta tensão superficial mais alta que a
+        maioria dos solventes orgânicos comuns?
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item A viscosidade reflete a resistência das moléculas ao fluxo, que
+        depende da intensidade das interações entre elas:
+        \begin{itemize}
+          \item \textbf{Glicerina} (mais viscosa): 3 grupos --OH por
+                molécula formam uma rede extensa de \textbf{ligações de
+                hidrogênio} ($\sim$6--9 ligações H por molécula, contando
+                doação e aceitação), dificultando muito o movimento relativo
+                das moléculas.
+          \item \textbf{Água} (viscosidade intermediária): até 4 ligações H
+                por molécula --- fortes, mas menos numerosas que na glicerina.
+          \item \textbf{Gasolina} (menos viscosa): mistura de
+                hidrocarbonetos apolares, apenas forças de London (fracas) →
+                moléculas deslizam com facilidade.
+        \end{itemize}
+
+  \item A tensão superficial reflete o custo energético de criar nova
+        superfície. Na água, as moléculas da superfície perderam parte de
+        sua rede de \textbf{ligações de hidrogênio} (para baixo e para os
+        lados, mas não para cima), resultando num estado de alta energia. O
+        sistema minimiza essa energia contraindo a superfície, o que se
+        manifesta como alta tensão superficial. Solventes orgânicos comuns
+        possuem apenas forças de London ou dipolo--dipolo (mais fracas),
+        logo a diferença energética entre moléculas de superfície e de
+        interior é menor --- tensão superficial menor.
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 9
+% ================================================================
+\questaoheader{9}
+
+\noindent\textbf{Questão 9.}
+Quando o \ce{NaCl} se dissolve em água, os íons \ce{Na+} e \ce{Cl-} ficam
+rodeados por moléculas de água (hidratação).
+\begin{enumerate}
+  \item Que tipo de interação (distinta das três discutidas neste bloco)
+        ocorre entre os íons e as moléculas de água?
+  \item As moléculas de água se orientam de forma específica ao redor de
+        cada íon. Indique qual extremidade da molécula de água
+        (\ce{O} ou \ce{H}) fica voltada para o \ce{Na+} e qual fica
+        voltada para o \ce{Cl-}, justificando.
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item O tipo de interação é a \textbf{força íon--dipolo}: uma carga
+        iônica (total) interage com o dipolo permanente da molécula de água
+        (polar). Essa força é geralmente mais intensa que as ligações de
+        hidrogênio e é a principal responsável pela solvatação de eletrólitos
+        em água.
+
+  \item A molécula de água tem o oxigênio com carga parcial negativa
+        ($\delta^-$) e os hidrogênios com carga parcial positiva ($\delta^+$):
+        \begin{itemize}
+          \item Ao redor do \ce{Na+} (carga $+$): a extremidade
+                \textbf{oxigênio} ($\delta^-$) fica voltada para o cátion,
+                pois cargas opostas se atraem.
+          \item Ao redor do \ce{Cl-} (carga $-$): as extremidades
+                \textbf{hidrogênio} ($\delta^+$) ficam voltadas para o
+                ânion, pela mesma razão de atração eletrostática.
+        \end{itemize}
+\end{enumerate}
+
+\clearpage
+
+% ================================================================
+% Questão 10
+% ================================================================
+\questaoheader{10}
+
+\noindent\textbf{Questão 10.}
+A figura abaixo mostra a curva de aquecimento de uma amostra de água pura
+sob pressão constante, partindo do estado sólido.
+
+\begin{center}
+\includesvg[width=0.55\textwidth]{figuras/bloco09_fig2_curva_aquecimento}
+\end{center}
+
+\begin{enumerate}
+  \item Por que a temperatura permanece constante durante os trechos de
+        fusão e de ebulição, mesmo com fornecimento contínuo de calor?
+  \item Para onde vai a energia fornecida durante esses trechos
+        constantes, já que ela não aumenta a temperatura?
+  \item O trecho de ebulição é mais longo (no eixo do calor) que o trecho
+        de fusão. O que isso indica sobre as energias envolvidas em cada
+        mudança de estado?
+\end{enumerate}
+
+\resolucaosep
+
+\begin{enumerate}
+  \item A temperatura mede a energia cinética média das moléculas. Durante
+        uma transição de fase, a energia fornecida é usada para
+        \textbf{romper forças intermoleculares} (e não para acelerar as
+        moléculas), portanto a energia cinética --- e a temperatura ---
+        permanecem constantes até que toda a amostra tenha mudado de fase.
+
+  \item A energia vai para \textbf{vencer as atrações intermoleculares}:
+        \begin{itemize}
+          \item Na fusão: rompe-se parcialmente a rede de ligações de
+                hidrogênio do gelo (estrutura cristalina) para que as
+                moléculas possam se mover livremente no líquido.
+          \item Na ebulição: rompem-se praticamente \emph{todas} as
+                interações restantes da fase líquida, permitindo que as
+                moléculas escapem para a fase gasosa de forma independente.
+        \end{itemize}
+
+  \item O trecho de ebulição mais longo indica que a
+        \textbf{entalpia de vaporização} ($\Delta H_{\text{vap}}
+        \approx 2260$~J/g) é muito maior que a
+        \textbf{entalpia de fusão} ($\Delta H_{\text{fus}}
+        \approx 334$~J/g). Isso faz sentido: ao fundir, apenas parte da
+        rede de ligações H é rompida (o líquido ainda mantém muitas
+        interações); ao vaporizar, é necessário vencer quase todas as
+        forças intermoleculares restantes para separar completamente as
+        moléculas.
+\end{enumerate}
+
+\end{document}

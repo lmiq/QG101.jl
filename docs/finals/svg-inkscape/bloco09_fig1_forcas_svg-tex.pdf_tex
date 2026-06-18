@@ -1,0 +1,86 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'bloco09_fig1_forcas_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{537bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3226257)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.16061453,0.28910615){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{Forças de London}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.05865922,0.18156425){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ-\end{tabular}}}}%
+    \put(0.10614525,0.12569832){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ+\end{tabular}}}}%
+    \put(0.20670391,0.18156425){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ+\end{tabular}}}}%
+    \put(0.25418994,0.12569832){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ-\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.16061453,0.07402235){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}dipolos instantâneos\end{tabular}}}}%
+    \put(0.16061453,0.05307263){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}induzidos\end{tabular}}}}%
+    \put(0.16061452,0.02793296){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textit{(presentes em toda molécula)}\end{tabular}}}}%
+    \put(0.49581005,0.28910615){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{Dipolo–dipolo}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.36871508,0.15223464){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ-\end{tabular}}}}%
+    \put(0.43435754,0.1773743){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ+\end{tabular}}}}%
+    \put(0.53631285,0.15223464){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ-\end{tabular}}}}%
+    \put(0.60195531,0.1773743){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ+\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.49581005,0.07402235){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}moléculas polares\end{tabular}}}}%
+    \put(0.49581005,0.05307263){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}(ex.: HCl)\end{tabular}}}}%
+    \put(0.83519554,0.28910615){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{Ligação de hidrogênio}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.71368715,0.1773743){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ+\end{tabular}}}}%
+    \put(0.74860335,0.10893855){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}O\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.88826816,0.08379888){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}O\end{tabular}}}}%
+    \put(0.90502793,0.15223464){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}δ-\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{bloco09_fig1_forcas_svg-tex.pdf}}%
+    \put(0.83519553,0.03910615){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}O–H···O (ex.: H₂O)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

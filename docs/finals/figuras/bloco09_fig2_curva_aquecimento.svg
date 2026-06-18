@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="598" height="378" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="60" y1="330" x2="585" y2="330" stroke="black" stroke-width="1.6"/>
+  <polygon points="585,330 575,325 575,335" fill="black"/>
+  <line x1="60" y1="330" x2="60" y2="22" stroke="black" stroke-width="1.6"/>
+  <polygon points="60,22 55,32 65,32" fill="black"/>
+
+  <text x="330" y="360" text-anchor="middle" font-size="13">Calor adicionado (q)</text>
+  <text x="22" y="180" text-anchor="middle" font-size="13" transform="rotate(-90 22 180)">Temperatura (&#176;C)</text>
+
+  <!-- reference dashed lines at 0 and 100 C -->
+  <line x1="60" y1="274" x2="570" y2="274" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="60" y1="94" x2="570" y2="94" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="38" y="278" text-anchor="end" font-size="12">0</text>
+  <text x="38" y="98" text-anchor="end" font-size="12">100</text>
+
+  <!-- Heating curve -->
+  <polyline points="70,310 130,274 230,274 370,94 520,94 570,40"
+            fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+  <!-- Segment labels -->
+  <text x="92" y="320" font-size="12">sólido</text>
+  <text x="180" y="258" text-anchor="middle" font-size="11.5">fusão</text>
+  <text x="180" y="296" text-anchor="middle" font-size="10" font-style="italic">(sólido-líquido)</text>
+  <text x="300" y="200" text-anchor="middle" font-size="12">líquido</text>
+  <text x="445" y="78" text-anchor="middle" font-size="11.5">ebulição</text>
+  <text x="445" y="116" text-anchor="middle" font-size="10" font-style="italic">(líquido-gás)</text>
+  <text x="548" y="58" font-size="12">gás</text>
+</svg>

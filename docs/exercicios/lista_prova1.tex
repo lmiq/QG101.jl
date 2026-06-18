@@ -1,0 +1,578 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+\newcommand{\gl}{~g~L$^{-1}$}
+\newcommand{\kcalmol}{~kcal~mol$^{-1}$}
+
+\setlist[enumerate,1]{label=\textbf{\arabic*.}, leftmargin=*, itemsep=6pt}
+\setlist[enumerate,2]{label=\textbf{(\alph*)}, leftmargin=1.5em, itemsep=2pt}
+
+\pagestyle{empty}
+
+% ================================================================
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries QG101 -- Química Geral}\\[4pt]
+  {\large\bfseries Lista de Exercícios -- Preparação para a Prova 1}\\[2pt]
+  \textit{Tópicos: Medidas e Mol $\cdot$ Estequiometria $\cdot$ Estrutura
+  Atômica $\cdot$ Configuração Eletrônica $\cdot$ Propriedades Periódicas
+  $\cdot$ Ligações Iônicas}
+\end{center}
+
+\bigskip
+
+% ================================================================
+\section*{Tópico 1 \; -- \; Medidas, Propriedades e o Mol}
+
+% ---------------------------------------------------------------
+\begin{enumerate}
+
+\item A concentração de flúor (\ce{F}) na água potável fluoretada é de
+  $0{,}70~\text{mg/L}$.
+  \begin{enumerate}
+    \item Converta esse valor para $\mu$g/mL e para g/m$^3$,
+          mostrando os fatores de conversão.
+    \item Sabendo que a massa molar do \ce{F} é
+          $M = 19{,}00~\text{g/mol}$, calcule a concentração
+          \emph{molar} do flúor nessa água (em mol/L).
+    \item A concentração obtida é uma grandeza intensiva ou extensiva?
+          Justifique.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item A densidade do alumínio sólido é $2{,}70~\text{g/cm}^3$.
+  \begin{enumerate}
+    \item Converta essa densidade para kg/m$^3$.
+    \item Calcule o volume (em cm$^3$) ocupado por exatamente
+          $1{,}00$~mol de \ce{Al} ($M = 26{,}98~\text{g/mol}$).
+    \item Se você dividir a amostra ao meio, a densidade muda?
+          E a massa total? Use esses exemplos para distinguir
+          grandeza intensiva de extensiva.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O ferro (\ce{Fe}, $M = 55{,}85~\text{g/mol}$) é o principal
+  componente do aço.
+  \begin{enumerate}
+    \item Quantos mols de \ce{Fe} existem em $279{,}3~\text{g}$?
+    \item Quantos \emph{átomos} de \ce{Fe} isso representa?
+          (use $N_A = 6{,}022\times10^{23}~\text{mol}^{-1}$)
+    \item Se essa massa de ferro for dissolvida em ácido e a solução
+          completada a $500~\text{mL}$, qual a concentração molar
+          de \ce{Fe^{2+}}?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Uma solução de sacarose (\ce{C12H22O11},
+  $M = 342{,}3~\text{g/mol}$) é preparada dissolvendo
+  $68{,}5~\text{g}$ da substância em água até completar
+  $250~\text{mL}$ de solução.
+  \begin{enumerate}
+    \item Calcule o número de mols de sacarose dissolvida.
+    \item Calcule a concentração molar da solução.
+    \item Quantas \emph{moléculas} de sacarose há em $10{,}0~\text{mL}$
+          dessa solução?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Um gás de enxofre contém $96{,}0~\text{g}$ de \ce{S}
+  ($M = 32{,}07~\text{g/mol}$) e $96{,}0~\text{g}$ de \ce{O}
+  ($M = 16{,}00~\text{g/mol}$).
+  \begin{enumerate}
+    \item Calcule o número de mols de \ce{S} e de \ce{O} na amostra.
+    \item Determine a razão molar $n(\text{O})/n(\text{S})$ e
+          indique qual fórmula empírica simples isso sugere
+          (\ce{SO2} ou \ce{SO3}?).
+    \item A quantidade de átomos de \ce{S} é extensiva ou intensiva?
+          E a razão molar do item anterior?
+  \end{enumerate}
+
+\end{enumerate}
+
+% ================================================================
+\newpage
+\section*{Tópico 2 \; -- \; Estequiometria}
+
+\begin{enumerate}[resume]
+
+% ---------------------------------------------------------------
+\item A \textbf{combustão completa do propano} (\ce{C3H8}), gás de
+  cozinha, gera \ce{CO2} e \ce{H2O}.
+  \begin{enumerate}
+    \item Escreva a equação não-balanceada e balanceie-a.
+    \item Quantos gramas de \ce{CO2} ($M = 44{,}0~\text{g/mol}$)
+          são produzidos pela combustão de $44{,}1~\text{g}$ de
+          \ce{C3H8} ($M = 44{,}1~\text{g/mol}$)?
+    \item Qual a massa de \ce{O2} ($M = 32{,}0~\text{g/mol}$)
+          necessária para a reação completa?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Na indústria, o \textbf{hidrogênio} pode ser obtido pela
+  reação de vapor d'água com metano (reforma a vapor):
+  \[
+    \ce{CH4(g) + H2O(g) -> CO(g) + H2(g)} \quad \text{(não balanceada)}
+  \]
+  \begin{enumerate}
+    \item Balanceie a equação.
+    \item Calcule quantos gramas de \ce{H2} ($M = 2{,}016~\text{g/mol}$)
+          são produzidos a partir de $160~\text{g}$ de \ce{CH4}
+          ($M = 16{,}04~\text{g/mol}$), assumindo excesso de vapor.
+    \item Se apenas $18{,}1~\text{g}$ de \ce{H2} forem efetivamente
+          obtidos, qual é o rendimento percentual da reação?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Em um experimento, misturam-se $5{,}40~\text{g}$ de alumínio
+  (\ce{Al}, $M = 26{,}98~\text{g/mol}$) com $16{,}0~\text{g}$ de
+  oxigênio (\ce{O2}, $M = 32{,}00~\text{g/mol}$) para formar
+  óxido de alumínio:
+  \[
+    \ce{4 Al(s) + 3 O2(g) -> 2 Al2O3(s)}
+  \]
+  \begin{enumerate}
+    \item Calcule o número de mols de cada reagente.
+    \item Identifique o \textbf{reagente limitante}.
+    \item Calcule a massa de \ce{Al2O3}
+          ($M = 102{,}0~\text{g/mol}$) produzida e a massa do
+          reagente em excesso que sobra.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Em uma titulação ácido-base, $25{,}0~\text{mL}$ de uma
+  solução de \ce{H2SO4} de concentração desconhecida são
+  neutralizados por $40{,}0~\text{mL}$ de \ce{NaOH}
+  $0{,}200~\text{mol/L}$. A reação é:
+  \[
+    \ce{H2SO4(aq) + 2 NaOH(aq) -> Na2SO4(aq) + 2 H2O(l)}
+  \]
+  \begin{enumerate}
+    \item Quantos mols de \ce{NaOH} foram utilizados?
+    \item Quantos mols de \ce{H2SO4} havia na alíquota?
+    \item Calcule a concentração molar e a concentração em g/L
+          de \ce{H2SO4} ($M = 98{,}1~\text{g/mol}$).
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item A análise elementar de um composto orgânico revela que ele
+  contém $40{,}0\%$ de C, $6{,}7\%$ de H e $53{,}3\%$ de O em
+  massa. A massa molar experimental é $\approx 60~\text{g/mol}$.
+  \begin{enumerate}
+    \item Calcule o número de mols de cada elemento em
+          $100~\text{g}$ do composto.
+    \item Determine a \textbf{fórmula empírica} do composto
+          (razão inteira mínima de átomos).
+    \item Determine a \textbf{fórmula molecular} usando
+          a massa molar fornecida.
+  \end{enumerate}
+
+\end{enumerate}
+
+% ================================================================
+\newpage
+\section*{Tópico 3 \; -- \; Estrutura Atômica}
+
+\begin{enumerate}[resume]
+
+% ---------------------------------------------------------------
+\item O \textbf{fósforo} (\ce{P}) é essencial para fertilizantes e
+  para o DNA. Seu único isótopo estável é o ${}^{31}_{15}\text{P}$.
+  \begin{enumerate}
+    \item Determine o número de prótons, nêutrons e elétrons do
+          átomo neutro de ${}^{31}_{15}\text{P}$.
+    \item Escreva a configuração eletrônica completa do \ce{P} e
+          sua forma abreviada com gás nobre.
+    \item O \ce{P} pertence a qual período e grupo? Quantos
+          elétrons de valência possui? Qual íon ele tende a formar?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O \textbf{silício} (\ce{Si}) ocorre naturalmente como mistura
+  de três isótopos estáveis:
+
+  \begin{center}
+  \begin{tabular}{ccc}
+    \toprule
+    Isótopo & Massa (u) & Abundância \\
+    \midrule
+    ${}^{28}\text{Si}$ & $27{,}977$ & $92{,}23\%$ \\
+    ${}^{29}\text{Si}$ & $28{,}976$ & $4{,}67\%$  \\
+    ${}^{30}\text{Si}$ & $29{,}974$ & $3{,}10\%$  \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+  \begin{enumerate}
+    \item Calcule a massa atômica média do \ce{Si} e compare
+          com o valor tabelado ($28{,}09~\text{u}$).
+    \item Os três isótopos têm o mesmo número atômico? Justifique.
+          Quantos nêutrons tem cada um?
+    \item Dois nuclídeos com o mesmo número de massa mas elementos
+          diferentes chamam-se \textbf{isóbaros}. O ${}^{28}\text{Si}$
+          e o ${}^{28}\text{Al}$ ($Z=13$) são isóbaros?
+          São isótopos? Justifique.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O \textbf{nitrogênio} (\ce{N}, $Z=7$) e o
+  \textbf{fósforo} (\ce{P}, $Z=15$) estão no mesmo grupo da
+  tabela periódica.
+  \begin{enumerate}
+    \item Escreva as configurações eletrônicas completas de
+          \ce{N} e \ce{P}.
+    \item Ambos têm a mesma configuração de valência.
+          Qual é essa configuração? Por que isso os coloca no
+          mesmo grupo?
+    \item Compare o número de camadas eletrônicas de \ce{N}
+          e \ce{P}. Qual deles é maior? Justifique.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O modelo de Bohr para o átomo de hidrogênio prevê que a
+  energia do elétron no nível $n$ é
+  \[
+    E_n = -\frac{13{,}6~\text{eV}}{n^2}.
+  \]
+  \begin{enumerate}
+    \item Calcule a energia dos níveis $n=1$, $n=2$ e $n=3$.
+    \item Calcule a energia do fóton emitido na transição
+          $n=3 \to n=1$. Esse fóton pertence ao ultravioleta,
+          ao visível ou ao infravermelho? (use
+          $1~\text{eV} = 1{,}60\times10^{-19}~\text{J}$ e
+          $hc = 1{,}99\times10^{-25}~\text{J\,m}$ para calcular
+          o comprimento de onda se necessário.)
+    \item O modelo de Bohr funciona bem para o \ce{H}, mas
+          falha para átomos com mais de um elétron. Por quê?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Íons \textbf{isoeletrônicos} possuem o mesmo número de
+  elétrons. Considere o conjunto:
+  \ce{O^{2-}}, \ce{F^{-}}, \ce{Ne}, \ce{Na^{+}}, \ce{Mg^{2+}},
+  \ce{Al^{3+}}.
+  \begin{enumerate}
+    \item Verifique que todos têm 10 elétrons escrevendo a
+          configuração eletrônica de cada espécie.
+    \item Coloque essas espécies em ordem crescente de
+          \textbf{raio iônico/atômico}. Justifique com base
+          no número de prótons (carga nuclear) de cada uma.
+    \item O \ce{Na^{+}} tem raio menor ou maior que o átomo
+          \ce{Na}? E o \ce{F^{-}} comparado ao \ce{F}? Explique.
+  \end{enumerate}
+
+\end{enumerate}
+
+% ================================================================
+\newpage
+\section*{Tópico 4 \; -- \; Configuração Eletrônica e Tabela Periódica}
+
+\begin{enumerate}[resume]
+
+% ---------------------------------------------------------------
+\item O \textbf{enxofre} (\ce{S}, $Z=16$) é usado na produção
+  de ácido sulfúrico e na vulcanização da borracha.
+  \begin{enumerate}
+    \item Escreva a configuração eletrônica completa do \ce{S}
+          e sua forma abreviada. A qual bloco, período e grupo
+          pertence?
+    \item Represente os elétrons de valência no subnível $3p$
+          usando diagrama de caixas. Quantos elétrons
+          desemparelhados? O \ce{S} é paramagnético?
+    \item O \ce{S} pode formar os íons \ce{S^{2-}} e \ce{S^{4+}}.
+          Escreva a configuração eletrônica de cada íon.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Com base apenas nas configurações eletrônicas abaixo,
+  identifique \textbf{qual elemento} cada uma representa,
+  indicando seu símbolo, período e grupo:
+  \begin{enumerate}
+    \item $1s^2\,2s^2\,2p^6\,3s^2\,3p^3$
+    \item $[\text{Ar}]\,3d^{10}\,4s^2\,4p^2$
+    \item $[\text{Kr}]\,5s^1$
+    \item $[\text{Ne}]\,3s^2\,3p^5$
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O \textbf{vanádio} (\ce{V}, $Z = 23$) é um metal de
+  transição usado em ligas de alta resistência.
+  \begin{enumerate}
+    \item Escreva a configuração eletrônica completa do \ce{V}
+          e indique o bloco da tabela periódica ao qual pertence.
+    \item Represente o preenchimento dos orbitais $3d$ com
+          diagrama de caixas. Quantos elétrons desemparelhados?
+    \item O \ce{V} pode perder elétrons para formar \ce{V^{3+}}
+          e \ce{V^{5+}}. Escreva a configuração de cada íon
+          e indique de qual subnível os elétrons são removidos
+          primeiro.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O \textbf{cobre} (\ce{Cu}, $Z=29$) apresenta a configuração
+  real $[\text{Ar}]\,3d^{10}\,4s^1$ em vez da prevista pelo
+  diagrama de Pauling.
+  \begin{enumerate}
+    \item Qual seria a configuração prevista pelo diagrama de
+          Pauling para o \ce{Cu}?
+    \item Explique por que a configuração real
+          $[\text{Ar}]\,3d^{10}\,4s^1$ é mais estável.
+    \item O \ce{Cu} forma os íons \ce{Cu^+} e \ce{Cu^{2+}}.
+          Escreva a configuração eletrônica de cada um.
+          \ce{Cu^+} é diamagnético ou paramagnético?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Considere os elementos do \textbf{bloco~p} do 3.º período:
+  \ce{Al} ($Z=13$), \ce{Si} ($Z=14$), \ce{P} ($Z=15$),
+  \ce{S} ($Z=16$), \ce{Cl} ($Z=17$) e \ce{Ar} ($Z=18$).
+  \begin{enumerate}
+    \item Escreva a configuração de valência (apenas os
+          subníveis $3s$ e $3p$) de cada elemento.
+    \item Indique o número de elétrons desemparelhados de
+          cada um usando diagrama de caixas para o subnível $3p$.
+    \item Qual desses elementos tem o maior número de elétrons
+          desemparelhados? Qual tem zero? Justifique.
+  \end{enumerate}
+
+\end{enumerate}
+
+% ================================================================
+\newpage
+\section*{Tópico 5 \; -- \; Propriedades Periódicas}
+
+\begin{enumerate}[resume]
+
+% ---------------------------------------------------------------
+\item Considere os elementos do \textbf{grupo 1} (metais alcalinos):
+  \ce{Li} ($Z=3$), \ce{Na} ($Z=11$), \ce{K} ($Z=19$).
+  \begin{enumerate}
+    \item Escreva a configuração eletrônica de cada um e confirme
+          que todos têm 1 elétron de valência.
+    \item Coloque-os em ordem crescente de raio atômico.
+          Justifique com base no número de camadas eletrônicas.
+    \item Coloque-os em ordem crescente de energia de
+          primeira ionização. Justifique.
+    \item Qual deles é o mais reativo com a água? Por quê?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item A tabela abaixo apresenta as primeiras quatro energias de
+  ionização (em kJ/mol) de um elemento desconhecido \textbf{Q}
+  do 3.º período:
+
+  \begin{center}
+  \begin{tabular}{ccccc}
+    \toprule
+    EI$_1$ & EI$_2$ & EI$_3$ & EI$_4$ \\
+    \midrule
+    786 & 1577 & 3232 & 4356 \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+  \begin{enumerate}
+    \item Onde ocorre o \textbf{salto brusco} nas energias de
+          ionização? O que isso indica sobre o número de
+          elétrons de valência de \textbf{Q}?
+    \item Identifique o elemento \textbf{Q}. Escreva sua
+          configuração eletrônica e confirme o grupo ao qual
+          pertence.
+    \item Por que as energias de ionização sempre aumentam da
+          EI$_1$ para a EI$_2$, EI$_3$ etc.?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Compare os elementos \ce{C} ($Z=6$), \ce{Si} ($Z=14$) e
+  \ce{Pb} ($Z=82$), todos do grupo 14.
+  \begin{enumerate}
+    \item Coloque-os em ordem crescente de raio atômico.
+          Justifique.
+    \item Coloque-os em ordem \emph{decrescente} de energia
+          de primeira ionização. Justifique.
+    \item \ce{C} é claramente não-metálico, \ce{Si} é
+          semimetálico e \ce{Pb} é metálico. Relacione essa
+          tendência com a variação de energia de ionização
+          ao longo do grupo.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Espécies \textbf{isoeletrônicas} têm a mesma configuração
+  eletrônica, mas cargas nucleares diferentes.
+  Considere \ce{N^{3-}}, \ce{O^{2-}}, \ce{F^-}, \ce{Ne},
+  \ce{Na^+}, \ce{Mg^{2+}} (todas com 10 elétrons).
+  \begin{enumerate}
+    \item Coloque essas espécies em ordem crescente de
+          \textbf{eletronegatividade} do átomo neutro
+          correspondente.
+    \item Coloque-as em ordem crescente de \textbf{raio iônico/atômico}.
+          Justifique: por que maior carga nuclear implica
+          menor raio para espécies isoeletrônicas?
+    \item Qual dessas espécies possui a maior energia de
+          ionização (considerando os átomos neutros)?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O elemento \textbf{P} ($Z=15$) possui configuração de
+  valência $3s^2\,3p^3$ e o \textbf{S} ($Z=16$) possui
+  $3s^2\,3p^4$.
+  \begin{enumerate}
+    \item A EI$_1$ do \ce{P} é $1012~\text{kJ/mol}$ e a do
+          \ce{S} é $1000~\text{kJ/mol}$. Embora o \ce{S} esteja
+          à direita do \ce{P} no período, sua EI$_1$ é
+          \emph{menor}. Explique essa anomalia com base nos
+          diagramas de caixas do subnível $3p$.
+    \item Qual dos dois tem maior afinidade eletrônica
+          (tendência a ganhar elétrons)? Justifique.
+    \item Compare as eletronegatividades de \ce{P}
+          ($\chi = 2{,}1$) e \ce{S} ($\chi = 2{,}5$).
+          O que isso indica sobre o caráter das ligações
+          que cada um forma com o hidrogênio (\ce{H},
+          $\chi = 2{,}1$)?
+  \end{enumerate}
+
+\end{enumerate}
+
+% ================================================================
+\newpage
+\section*{Tópico 6 \; -- \; Ligações Iônicas}
+
+\begin{enumerate}[resume]
+
+% ---------------------------------------------------------------
+\item O \textbf{fluoreto de cálcio} (\ce{CaF2}, fluorita) é
+  o principal minério de flúor. Dados:
+  $r_0(\ce{CaF2}) = 237~\text{pm}$;
+  $|z_+| = 2$, $|z_-| = 1$; $A = 2{,}519$.
+  \begin{enumerate}
+    \item Escreva as configurações eletrônicas dos íons
+          \ce{Ca^{2+}} e \ce{F^-}. Com quais gases nobres
+          são isoeletrônicos?
+    \item Compare qualitativamente a energia de rede do
+          \ce{CaF2} com a do \ce{NaF}
+          ($r_0 = 231~\text{pm}$, $|z_+||z_-| = 1$).
+          Qual é maior? Por quê?
+    \item O ponto de fusão do \ce{CaF2} é $1418$\oC{} e o
+          do \ce{NaF} é $993$\oC. Isso é coerente com sua
+          resposta anterior? Justifique.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Considere os compostos \textbf{\ce{LiF}},
+  \textbf{\ce{NaCl}} e \textbf{\ce{KBr}}, todos com estrutura
+  tipo \ce{NaCl} e cargas $+1/-1$.
+
+  \begin{center}
+  \begin{tabular}{lccc}
+    \toprule
+    Composto & $r_+$ (pm) & $r_-$ (pm) & $r_0 = r_+ + r_-$ (pm) \\
+    \midrule
+    \ce{LiF}  & 76  & 133 & 209 \\
+    \ce{NaCl} & 102 & 181 & 283 \\
+    \ce{KBr}  & 138 & 196 & 334 \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+  \begin{enumerate}
+    \item Para cargas iguais, a energia de rede é proporcional
+          a $1/r_0$. Calcule $1/r_0$ (em pm$^{-1}$) para cada
+          composto e coloque-os em ordem decrescente de
+          energia de rede.
+    \item Com base nisso, qual dos três compostos deve ter o
+          maior ponto de fusão? Confirme consultando valores
+          tabelados se disponível.
+    \item Escreva as configurações eletrônicas de
+          \ce{Li^+}, \ce{F^-}, \ce{K^+} e \ce{Br^-}.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item \textbf{Ciclo de Born--Haber para o \ce{NaF}.}
+  Use os dados abaixo para estimar a energia de rede $U$
+  do fluoreto de sódio.
+
+  \begin{center}
+  \begin{tabular}{lc}
+    \toprule
+    Grandeza & $\Delta H$ (kJ\,mol$^{-1}$) \\
+    \midrule
+    $\Delta H_f^\circ$(\ce{NaF}, s)   & $-575$ \\
+    $\Delta H_{\text{sub}}$(\ce{Na})   & $+107$ \\
+    $\text{EI}_1$(\ce{Na})             & $+496$ \\
+    $\frac{1}{2}D$(\ce{F2})            & $+79$  \\
+    $\text{AE}$(\ce{F})                & $-328$ \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+  \begin{enumerate}
+    \item Escreva as cinco etapas do ciclo de Born--Haber e
+          a variação de entalpia de cada uma.
+    \item Aplique a Lei de Hess para obter $U$ numericamente.
+    \item O valor experimental é $U = -923~\text{kJ/mol}$.
+          Compare com o resultado e comente.
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item Dois sólidos iônicos hipotéticos têm a mesma estrutura
+  cristalina e os seguintes parâmetros:
+
+  \begin{center}
+  \begin{tabular}{lccc}
+    \toprule
+    Sólido & $|z_+|$ & $|z_-|$ & $r_0$ (pm) \\
+    \midrule
+    A & 1 & 1 & 250 \\
+    B & 2 & 2 & 250 \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+
+  \begin{enumerate}
+    \item Sem calcular numericamente, preveja qual sólido tem
+          maior energia de rede em módulo. Justifique usando
+          a expressão de Born--Landé.
+    \item Se o sólido A tiver ponto de fusão de $800$\oC,
+          estime qualitativamente o ponto de fusão do sólido B
+          (maior, menor ou igual?). Justifique.
+    \item Qual dos dois sólidos você esperaria ser menos solúvel
+          em água? Por quê?
+  \end{enumerate}
+
+% ---------------------------------------------------------------
+\item O \textbf{óxido de lítio} (\ce{Li2O}) e o
+  \textbf{óxido de bário} (\ce{BaO}) são dois sólidos iônicos.
+  Dados:
+  $r(\ce{Li^+}) = 76~\text{pm}$,
+  $r(\ce{Ba^{2+}}) = 136~\text{pm}$,
+  $r(\ce{O^{2-}}) = 140~\text{pm}$.
+  \begin{enumerate}
+    \item Escreva as configurações eletrônicas de
+          \ce{Li^+}, \ce{Ba^{2+}} e \ce{O^{2-}}.
+          Com quais gases nobres são isoeletrônicos?
+    \item Calcule $r_0$ para o par \ce{Li^+}/\ce{O^{2-}}
+          e para o par \ce{Ba^{2+}}/\ce{O^{2-}}.
+    \item O \ce{BaO} tem ponto de fusão $1923$\oC{} e o
+          \ce{Li2O} tem $1438$\oC. Considerando as cargas
+          iônicas e as distâncias interiônicas, explique
+          a diferença.
+  \end{enumerate}
+
+\end{enumerate}
+
+\end{document}

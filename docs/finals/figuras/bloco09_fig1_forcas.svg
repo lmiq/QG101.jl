@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 235" width="720" height="235" font-family="Helvetica, Arial, sans-serif">
+  <rect x="2" y="2" width="716" height="231" fill="white"/>
+
+  <!-- Panel frames -->
+  <rect x="5" y="5" width="225" height="222" fill="none" stroke="#999999" stroke-width="1.5"/>
+  <rect x="245" y="5" width="225" height="222" fill="none" stroke="#999999" stroke-width="1.5"/>
+  <rect x="485" y="5" width="230" height="222" fill="none" stroke="#999999" stroke-width="1.5"/>
+
+  <!-- Panel 1: Forcas de London -->
+  <text x="117" y="26" text-anchor="middle" font-size="14" font-weight="bold">Forças de London</text>
+  <circle cx="65" cy="120" r="32" fill="#eeeeee" stroke="black" stroke-width="1.5"/>
+  <circle cx="170" cy="120" r="32" fill="#eeeeee" stroke="black" stroke-width="1.5"/>
+  <text x="44" y="103" font-size="13">&#948;-</text>
+  <text x="78" y="143" font-size="13">&#948;+</text>
+  <text x="150" y="103" font-size="13">&#948;+</text>
+  <text x="184" y="143" font-size="13">&#948;-</text>
+  <line x1="97" y1="120" x2="138" y2="120" stroke="black" stroke-width="1.3" stroke-dasharray="4,3"/>
+  <text x="117" y="180" text-anchor="middle" font-size="11.5">dipolos instantâneos</text>
+  <text x="117" y="195" text-anchor="middle" font-size="11.5">induzidos</text>
+  <text x="117" y="213" text-anchor="middle" font-size="10.5" font-style="italic">(presentes em toda molécula)</text>
+
+  <!-- Panel 2: dipolo-dipolo -->
+  <text x="357" y="26" text-anchor="middle" font-size="14" font-weight="bold">Dipolo&#8211;dipolo</text>
+  <circle cx="280" cy="120" r="22" fill="#cfe8ff" stroke="black" stroke-width="1.5"/>
+  <circle cx="319" cy="120" r="11" fill="#ffd9d9" stroke="black" stroke-width="1.5"/>
+  <circle cx="400" cy="120" r="22" fill="#cfe8ff" stroke="black" stroke-width="1.5"/>
+  <circle cx="439" cy="120" r="11" fill="#ffd9d9" stroke="black" stroke-width="1.5"/>
+  <text x="266" y="124" font-size="12">&#948;-</text>
+  <text x="313" y="106" font-size="11">&#948;+</text>
+  <text x="386" y="124" font-size="12">&#948;-</text>
+  <text x="433" y="106" font-size="11">&#948;+</text>
+  <line x1="330" y1="120" x2="378" y2="120" stroke="black" stroke-width="1.3" stroke-dasharray="4,3"/>
+  <text x="357" y="180" text-anchor="middle" font-size="11.5">moléculas polares</text>
+  <text x="357" y="195" text-anchor="middle" font-size="11.5">(ex.: HCl)</text>
+
+  <!-- Panel 3: hydrogen bond -->
+  <text x="600" y="26" text-anchor="middle" font-size="14" font-weight="bold">Ligação de hidrogênio</text>
+
+  <line x1="545" y1="150" x2="520" y2="120" stroke="black" stroke-width="1.4"/>
+  <line x1="545" y1="150" x2="576" y2="116" stroke="black" stroke-width="1.4"/>
+  <circle cx="520" cy="120" r="8" fill="white" stroke="black" stroke-width="1.3"/>
+  <circle cx="576" cy="116" r="8" fill="white" stroke="black" stroke-width="1.3"/>
+  <circle cx="545" cy="150" r="16" fill="#ffb3b3" stroke="black" stroke-width="1.5"/>
+  <text x="513" y="106" font-size="10">&#948;+</text>
+  <text x="538" y="155" font-size="10">O</text>
+
+  <line x1="645" y1="168" x2="618" y2="138" stroke="black" stroke-width="1.4"/>
+  <line x1="645" y1="168" x2="674" y2="133" stroke="black" stroke-width="1.4"/>
+  <circle cx="618" cy="138" r="8" fill="white" stroke="black" stroke-width="1.3"/>
+  <circle cx="674" cy="133" r="8" fill="white" stroke="black" stroke-width="1.3"/>
+  <circle cx="645" cy="168" r="16" fill="#ffb3b3" stroke="black" stroke-width="1.5"/>
+  <text x="638" y="173" font-size="10">O</text>
+  <text x="650" y="124" font-size="10">&#948;-</text>
+
+  <line x1="576" y1="116" x2="618" y2="138" stroke="black" stroke-width="1.4" stroke-dasharray="4,3"/>
+
+  <text x="600" y="205" text-anchor="middle" font-size="11.5">O&#8211;H&#183;&#183;&#183;O (ex.: H&#8322;O)</text>
+</svg>

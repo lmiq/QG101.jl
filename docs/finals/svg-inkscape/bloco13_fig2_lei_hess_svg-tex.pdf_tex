@@ -1,0 +1,71 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'bloco13_fig2_lei_hess_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{388.5bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.72972973)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bloco13_fig2_lei_hess_svg-tex.pdf}}%
+    \put(0.18146718,0.64478764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{C(s) + O}\textbf{₂}\textbf{(g)}\end{tabular}}}}%
+    \put(0.81853282,0.64478764){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{CO(g) + ½O}\textbf{₂}\textbf{(g)}\end{tabular}}}}%
+    \put(0.5,0.06563707){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{CO}\textbf{₂}\textbf{(g)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{bloco13_fig2_lei_hess_svg-tex.pdf}}%
+    \put(0.49034749,0.66409266){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}ΔH₂ = ?\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{bloco13_fig2_lei_hess_svg-tex.pdf}}%
+    \put(0.76061776,0.36486486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ΔH₃ =\end{tabular}}}}%
+    \put(0.76061776,0.33011583){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}−283 kJ/mol\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{bloco13_fig2_lei_hess_svg-tex.pdf}}%
+    \put(0.1042471,0.36486486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ΔH₁ =\end{tabular}}}}%
+    \put(0.1042471,0.33011583){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}−394 kJ/mol\end{tabular}}}}%
+    \put(0.07528958,0.2953668){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{(caminho direto)}\end{tabular}}}}%
+    \put(0.5,0.01351351){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textit{H é função de estado: }\textit{Δ}\textit{H}\textit{₁}\textit{ = }\textit{Δ}\textit{H}\textit{₂}\textit{ + }\textit{Δ}\textit{H}\textit{₃}\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

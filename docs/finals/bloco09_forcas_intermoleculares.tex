@@ -1,0 +1,264 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\e}[1]{$\times 10^{#1}$}
+\newcommand{\moll}{~mol~L$^{-1}$}
+
+\setlist[itemize,1]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\setlist[enumerate,1]{leftmargin=*, itemsep=2pt, topsep=2pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries QG101 -- Química Geral}\\[4pt]
+  {\large\bfseries Bloco 9 -- Forças Intermoleculares e Estados da Matéria}\\[2pt]
+  \textit{Material didático -- Aula Teórica 9}
+\end{center}
+
+\bigskip
+
+% ================================================================
+\section*{1. Ligações intramoleculares x interações intermoleculares}
+
+As ligações \textbf{intramoleculares} (iônicas e covalentes, vistas nos blocos
+anteriores) mantêm os átomos unidos \emph{dentro} de uma molécula ou de um
+sólido iônico. São fortes: tipicamente entre 150 e 1000~kJ/mol.
+
+As \textbf{interações intermoleculares} (ou forças de van der Waals, em
+sentido amplo) atuam \emph{entre} moléculas vizinhas. São muito mais fracas
+-- de poucos kJ/mol a, no máximo, cerca de 40~kJ/mol -- mas são responsáveis
+por propriedades macroscópicas essenciais: ponto de fusão, ponto de
+ebulição, viscosidade, tensão superficial e o próprio estado físico
+(sólido, líquido ou gás) de uma substância em condições ambientes.
+
+\begin{quote}
+\textit{Quando a água entra em ebulição, as ligações covalentes O--H
+\textbf{não} são rompidas -- apenas as ligações de hidrogênio
+\textbf{entre} as moléculas de \ce{H2O} são vencidas.}
+\end{quote}
+
+% ================================================================
+\section*{2. Tipos de forças intermoleculares}
+
+\subsection*{2.1 -- Forças de London (dispersão)}
+
+Presentes em \textbf{todas} as moléculas e átomos, mesmo os apolares. Surgem
+porque a nuvem eletrônica flutua continuamente, criando dipolos
+\textbf{instantâneos} que induzem dipolos correspondentes nas moléculas
+vizinhas (Figura~1).
+
+A intensidade das forças de London cresce com a \textbf{polarizabilidade}
+da nuvem eletrônica, que por sua vez aumenta com o número de elétrons
+(tamanho/massa molar) e com a área de contato entre as moléculas (moléculas
+alongadas interagem mais que moléculas compactas de mesma massa molar).
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Gás nobre & \ce{He} & \ce{Ne} & \ce{Ar} \\
+\midrule
+Ponto de ebulição (\oC) & $-269$ & $-246$ & $-186$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+O aumento do ponto de ebulição de \ce{He} a \ce{Ar} ilustra o efeito da
+polarizabilidade: mais elétrons $\Rightarrow$ nuvem mais deformável
+$\Rightarrow$ forças de London mais intensas. O mesmo padrão explica por
+que, à temperatura ambiente, \ce{F2} e \ce{Cl2} são gases, \ce{Br2} é
+líquido e \ce{I2} é sólido.
+
+\subsection*{2.2 -- Forças dipolo-dipolo}
+
+Ocorrem entre moléculas que possuem \textbf{dipolo permanente}
+(momento de dipolo $\mu \neq 0$): a extremidade $\delta^+$ de uma molécula
+atrai a extremidade $\delta^-$ da vizinha (Figura~1). São, em geral, mais
+intensas que as forças de London entre moléculas de massa molar
+semelhante.
+
+\textbf{Exemplo:} o butano (\ce{C4H10}, $M = 58$~g/mol, apolar) ferve a
+$-1$\oC, enquanto a acetona (\ce{C3H6O}, $M = 58$~g/mol, polar) ferve a
+$56$\oC. Mesma massa molar, mas a acetona soma forças dipolo-dipolo às
+forças de London, exigindo mais energia para separar as moléculas.
+
+\subsection*{2.3 -- Ligações de hidrogênio}
+
+Caso particular e especialmente forte de atração dipolo-dipolo, que ocorre
+quando um átomo de \textbf{H} está covalentemente ligado a um átomo pequeno
+e muito eletronegativo (\ce{N}, \ce{O} ou \ce{F}) e interage com um par de
+elétrons não-ligantes de um \ce{N}, \ce{O} ou \ce{F} \emph{vizinho}
+(Figura~1). Energia típica: 10--40~kJ/mol -- mais forte que uma
+dipolo-dipolo comum, porém ainda muito mais fraca que uma ligação covalente.
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+Hidreto (grupo 16) & \ce{H2O} & \ce{H2S} & \ce{H2Se} & \ce{H2Te} \\
+\midrule
+Ponto de ebulição (\oC) & $100$ & $-60$ & $-41$ & $-2$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Do \ce{H2S} ao \ce{H2Te} o ponto de ebulição \textbf{sobe} com o aumento de
+tamanho/polarizabilidade (forças de London), como esperado. Mas a
+\ce{H2O} é a grande anomalia da série: \textbf{sem} ligações de hidrogênio,
+seu ponto de ebulição seria esperado em torno de $-90$\oC; com elas, sobe
+para $100$\oC.
+
+% ================================================================
+\section*{3. Resumo comparativo}
+
+\begin{center}
+\begin{tabular}{lp{5.4cm}cl}
+\toprule
+Força & Origem & Energia (kJ/mol) & Exemplo \\
+\midrule
+London (dispersão) & Dipolos instantâneos induzidos & $0,05$--$40$ &
+  \ce{Ar}, \ce{CH4}, \ce{I2} \\
+Dipolo-dipolo & Atração entre dipolos permanentes & $5$--$25$ &
+  Acetona, \ce{SO2} \\
+Ligação de hidrogênio & \ce{H} (em N--H, O--H, F--H) $\cdots$ par livre &
+  $10$--$40$ & \ce{H2O}, \ce{NH3}, \ce{HF} \\
+\midrule
+\textit{(referência)} Ligação covalente & Compartilhamento de elétrons &
+  $150$--$1000$ & \ce{O-H}, \ce{C-C} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\bigskip
+\begin{center}
+\includesvg[width=0.95\textwidth]{figuras/bloco09_fig1_forcas}
+
+{\small Figura 1 -- Representação esquemática das três principais forças
+intermoleculares.}
+\end{center}
+
+\clearpage
+
+% ================================================================
+\section*{4. Influência nas propriedades físicas}
+
+Quanto mais intensas as forças intermoleculares, \textbf{mais energia} é
+necessária para separar as moléculas -- logo, maiores tendem a ser:
+
+\begin{itemize}
+\item o \textbf{ponto de fusão} e o \textbf{ponto de ebulição};
+\item a \textbf{viscosidade} (resistência ao escoamento: glicerina e mel,
+  com várias hidroxilas por molécula, formam extensas redes de ligações de
+  hidrogênio e escoam muito mais lentamente que a água ou a gasolina);
+\item a \textbf{tensão superficial} (a água, por suas ligações de
+  hidrogênio, tem tensão superficial bem maior que solventes orgânicos
+  comuns, permitindo, por exemplo, que insetos caminhem sobre sua
+  superfície).
+\end{itemize}
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+Substância & \ce{Ne} & \ce{CH4} & \ce{NH3} & \ce{H2O} \\
+Massa molar (g/mol) & $20$ & $16$ & $17$ & $18$ \\
+Força predominante & London & London & dipolo-dipolo / H & ligação de H \\
+Ponto de ebulição (\oC) & $-246$ & $-161$ & $-33$ & $100$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Note que \ce{CH4} e \ce{H2O} têm massas molares muito próximas, mas pontos
+de ebulição radicalmente diferentes: o que importa não é apenas o
+\emph{tamanho} da molécula, mas o \textbf{tipo} de força intermolecular
+que ela pode formar.
+
+% ================================================================
+\section*{5. Estados físicos e mudanças de estado}
+
+Nos sólidos, as forças intermoleculares mantêm as partículas em posições
+fixas (vibrando no lugar); nos líquidos, as partículas deslizam umas sobre
+as outras mas permanecem próximas; nos gases, as forças intermoleculares
+são vencidas pela energia cinética e as partículas se movem livremente,
+muito afastadas entre si.
+
+Ao fornecer calor a um sólido (Figura~2), a temperatura sobe até atingir o
+\textbf{ponto de fusão}, onde permanece \textbf{constante} enquanto o
+sólido vira líquido: toda a energia fornecida é usada para vencer parte
+das forças intermoleculares da rede, não para aumentar a energia cinética
+média (e, portanto, a temperatura). O mesmo ocorre no \textbf{ponto de
+ebulição}. Por isso a \emph{temperatura não é um bom indicador} de quanto
+calor já foi fornecido durante uma transição de fase.
+
+\begin{center}
+\includesvg[width=0.62\textwidth]{figuras/bloco09_fig2_curva_aquecimento}
+
+{\small Figura 2 -- Curva de aquecimento típica da água sob pressão
+constante: a temperatura permanece constante durante as mudanças de fase.}
+\end{center}
+
+% ================================================================
+\section*{6. Propriedades anômalas da água}
+
+A rede tridimensional de ligações de hidrogênio (cada molécula de
+\ce{H2O} pode doar 2 e aceitar 2 ligações de hidrogênio) explica diversas
+propriedades incomuns da água:
+
+\begin{itemize}
+\item \textbf{Ponto de ebulição elevado} para uma molécula tão pequena
+  (Seção~2.3).
+\item \textbf{O gelo é menos denso que a água líquida}: no gelo, as
+  ligações de hidrogênio organizam as moléculas em uma estrutura
+  hexagonal aberta, com mais espaço vazio do que no líquido (onde a rede
+  é parcial e mais compacta). Por isso o gelo \textbf{flutua} -- um
+  comportamento raro entre as substâncias, e essencial para a vida
+  aquática em climas frios (a camada de gelo isola a água líquida abaixo).
+\item \textbf{Calor específico elevado} ($4{,}18$~J~g$^{-1}$\oC$^{-1}$):
+  romper parcialmente a rede de ligações de hidrogênio para aumentar a
+  energia cinética média consome bastante energia, fazendo da água um
+  excelente regulador térmico (moderação climática costeira, regulação da
+  temperatura corporal).
+\item \textbf{Tensão superficial elevada}, já mencionada na Seção~4.
+\end{itemize}
+
+% ================================================================
+\section*{7. Síntese}
+
+\begin{center}
+\begin{tabular}{p{3.4cm}p{5.2cm}p{5.6cm}}
+\toprule
+Conceito & Ideia central & Consequência prática \\
+\midrule
+Intra x intermolecular & Ligações fortes \textit{dentro}; forças fracas
+  \textit{entre} moléculas & Fusão/ebulição rompem apenas interações
+  intermoleculares \\
+London & Dipolos instantâneos; presentes sempre & Cresce com massa
+  molar/polarizabilidade \\
+Dipolo-dipolo & Dipolos permanentes & Soma-se a London em moléculas
+  polares \\
+Ligação de H & H ligado a N/O/F $\cdots$ par livre & Pontos de
+  ebulição anomalamente altos (\ce{H2O}, \ce{NH3}, \ce{HF}) \\
+Estados da matéria & Energia cinética x forças intermoleculares & Define
+  sólido/líquido/gás e as transições entre eles \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\bigskip
+\noindent\textit{A lista de exercícios correspondente a este bloco está no
+arquivo \texttt{bloco09\_lista\_exercicios.pdf}.}
+
+\end{document}

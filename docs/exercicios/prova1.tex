@@ -1,0 +1,312 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{mhchem}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+
+% ---- macros comuns ----
+\newcommand{\oC}{$^\circ$C}
+\newcommand{\nomera}{%
+  \noindent
+  \begin{tabular}{|p{0.65\textwidth}|p{0.28\textwidth}|}
+    \rule{0pt}{1.8em}Nome:\hfill & RA:\hfill\rule{0pt}{1.8em} \\
+    \hline
+  \end{tabular}%
+  \vspace{0.4cm}
+}
+\newcommand{\cabecalho}[1]{%
+  \begin{center}
+    {\large\bfseries QG101 -- Química Geral\quad|\quad Prova 1}\\[2pt]
+    {\bfseries #1}\\[2pt]
+    \textit{Justifique suas respostas. Valor: 2,5 pontos.}
+  \end{center}
+  \vspace{0.2cm}
+}
+% caixa orbital vazia
+\newcommand{\caixa}{\framebox[1.4em]{\rule{0pt}{1.0em}\hspace{1.4em}}}
+% caixa com seta para cima
+\newcommand{\caup}{\framebox[1.4em]{\rule{0pt}{1.0em}$\uparrow\phantom{\downarrow}$}}
+% caixa com duas setas
+\newcommand{\caupdown}{\framebox[1.4em]{\rule{0pt}{1.0em}$\uparrow\downarrow$}}
+
+\pagestyle{empty}
+
+% ================================================================
+\begin{document}
+
+% ----------------------------------------------------------------
+%  QUESTÃO 1 — Mol e Estequiometria (Aulas 1–2)
+% ----------------------------------------------------------------
+\nomera
+\cabecalho{Questão 1 -- Mol e Estequiometria}
+
+A \textbf{combustão completa do etanol} (\ce{C2H5OH}) produz dióxido
+de carbono e água. A equação \emph{não balanceada} é:
+\[
+  \ce{C2H5OH(l) + O2(g) -> CO2(g) + H2O(g)}
+\]
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+
+  \item \textbf{Balanceie} a equação acima, determinando os coeficientes
+        estequiométricos corretos. Mostre o balanço de átomos na tabela:
+
+        \begin{center}
+        \renewcommand{\arraystretch}{1.6}
+        \begin{tabular}{|c|c|c|}
+          \hline
+          \textbf{Elemento} & \textbf{Lado dos reagentes} & \textbf{Lado dos produtos} \\
+          \hline
+          C & \hspace{2cm} & \hspace{2cm} \\
+          \hline
+          H & & \\
+          \hline
+          O & & \\
+          \hline
+        \end{tabular}
+        \end{center}
+
+        Equação balanceada: \quad
+        \ce{C2H5OH + \underline{\hspace{0.6cm}} O2 ->
+           \underline{\hspace{0.6cm}} CO2 + \underline{\hspace{0.6cm}} H2O}
+
+        \vspace{0.3cm}
+
+  \item Calcule o número de mols de etanol presente em \textbf{184,0~g}
+        da substância.\\
+        (Massa molar do etanol: $M = 46{,}0~\text{g/mol}$)
+
+        \vspace{3.5cm}
+
+  \item Com base na estequiometria da equação e no resultado do item
+        anterior, calcule a \textbf{massa de \ce{CO2}} produzida na combustão dessa amostra.\\
+        ($M_{\ce{CO2}} = 44{,}0~\text{g/mol}$)
+
+        \vspace{3.5cm}
+
+  \item Qual a \textbf{massa de \ce{H2O}} produzida na mesma reação?\\
+        ($M_{\ce{H2O}} = 18{,}0~\text{g/mol}$)
+
+        \vspace{3cm}
+
+\end{enumerate}
+
+% ----------------------------------------------------------------
+\newpage
+
+% ----------------------------------------------------------------
+%  QUESTÃO 2 — Estrutura Atômica e Configuração Eletrônica (Aulas 3–4)
+% ----------------------------------------------------------------
+\nomera
+\cabecalho{Questão 2 -- Estrutura Atômica e Configuração Eletrônica}
+
+O \textbf{oxigênio} (\ce{O}, $Z = 8$) é fundamental para a vida e para
+reações de combustão e corrosão. Seu isótopo mais abundante é o
+${}^{16}_{8}\text{O}$.
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+
+  \item Preencha a tabela abaixo para o átomo neutro de ${}^{16}_{8}\text{O}$:
+
+        \begin{center}
+        \renewcommand{\arraystretch}{1.8}
+        \begin{tabular}{|c|c|c|}
+          \hline
+          \textbf{Prótons} & \textbf{Nêutrons} & \textbf{Elétrons} \\
+          \hline
+          \hspace{2.5cm} & \hspace{2.5cm} & \hspace{2.5cm} \\
+          \hline
+        \end{tabular}
+        \end{center}
+
+        \vspace{0.3cm}
+
+  \item Escreva a \textbf{configuração eletrônica completa} do \ce{O}:
+
+        \vspace{1.5cm}
+
+        A qual período e grupo da tabela periódica o \ce{O} pertence?
+        Quantos elétrons de valência possui?
+
+        \vspace{1.5cm}
+
+  \item Represente o preenchimento dos orbitais usando o
+        \textbf{diagrama de caixas} abaixo.
+        Aplique as regras de Hund e o princípio de Aufbau.
+
+        \vspace{0.5cm}
+        \begin{center}
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabular}{c}
+          \underline{\hspace{1.8em}} \\
+          $1s$
+        \end{tabular}
+        \quad
+        \begin{tabular}{c}
+          \underline{\hspace{1.8em}} \\
+          $2s$
+        \end{tabular}
+        \quad
+        \begin{tabular}{ccc}
+          \underline{\hspace{1.8em}} & \underline{\hspace{1.8em}} & \underline{\hspace{1.8em}} \\
+          \multicolumn{3}{c}{$2p$}
+        \end{tabular}
+        \end{center}
+
+        \vspace{0.6cm}
+        Quantos elétrons \textbf{desemparelhados} o \ce{O} possui?
+        O \ce{O} é paramagnético ou diamagnético? Justifique.
+
+        \vspace{2cm}
+
+  \item O \ce{O} forma o íon \ce{O^{2-}} ao ganhar 2 elétrons.
+        Escreva a configuração eletrônica do \ce{O^{2-}} e indique
+        com qual gás nobre ele é \textbf{isoeletrônico}.
+
+        \vspace{2.5cm}
+
+\end{enumerate}
+
+% ----------------------------------------------------------------
+\newpage
+
+% ----------------------------------------------------------------
+%  QUESTÃO 3 — Propriedades Periódicas: gráficos (Aula 5)
+% ----------------------------------------------------------------
+\nomera
+\cabecalho{Questão 3 -- Propriedades Periódicas}
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+
+  \item No eixo abaixo, \textbf{esboce} o comportamento \emph{qualitativo}
+        do \textbf{raio atômico} ao longo do 2.º período
+        (de Li a Ne), marcando os pontos aproximados e
+        conectando-os com uma curva suave.
+        Indique com uma seta a direção de aumento do raio atômico.
+
+        \begin{center}
+        \begin{tikzpicture}[scale=0.95]
+          \draw[-{Stealth}] (0,0) -- (9,0) node[right] {Elemento};
+          \draw[-{Stealth}] (0,0) -- (0,4.5) node[above] {Raio atômico (u.a.)};
+          \foreach \x/\el in {1/Li, 2/Be, 3/B, 4/C, 5/N, 6/O, 7/F, 8/Ne}
+            \draw (\x,0.08) -- (\x,-0.08) node[below] {\el};
+          \foreach \y in {1,2,3,4}
+            \draw (0.06,\y) -- (-0.06,\y);
+          \draw[gray!40, very thin] (0.5,0.5) grid[step=0.5] (8.5,4);
+        \end{tikzpicture}
+        \end{center}
+
+        \vspace{0.2cm}
+        Em uma ou duas frases, \textbf{explique} por que o raio atômico
+        segue a tendência que você indicou no gráfico.
+
+        \vspace{2cm}
+
+  \item No eixo abaixo, \textbf{esboce} o comportamento \emph{qualitativo}
+        da \textbf{primeira energia de ionização} ao longo do 2.º período.
+        \textit{Dica: há duas pequenas anomalias — em B e em O.}
+
+        \begin{center}
+        \begin{tikzpicture}[scale=0.95]
+          \draw[-{Stealth}] (0,0) -- (9,0) node[right] {Elemento};
+          \draw[-{Stealth}] (0,0) -- (0,4.5) node[above] {EI$_1$ (u.a.)};
+          \foreach \x/\el in {1/Li, 2/Be, 3/B, 4/C, 5/N, 6/O, 7/F, 8/Ne}
+            \draw (\x,0.08) -- (\x,-0.08) node[below] {\el};
+          \foreach \y in {1,2,3,4}
+            \draw (0.06,\y) -- (-0.06,\y);
+          \draw[gray!40, very thin] (0.5,0.5) grid[step=0.5] (8.5,4);
+        \end{tikzpicture}
+        \end{center}
+
+        \vspace{0.2cm}
+        A EI$_1$ do \textbf{N} é \emph{maior} do que a do \textbf{O}.
+        Isto está de acordo com o argumento que determina a tendência geral do grupo?
+        Explique com base no preenchimento dos orbitais atômicos.
+
+        \vspace{2.5cm}
+
+\end{enumerate}
+
+% ----------------------------------------------------------------
+\newpage
+
+% ----------------------------------------------------------------
+%  QUESTÃO 4 — Ligações Iônicas (Aula 6)
+% ----------------------------------------------------------------
+\nomera
+\cabecalho{Questão 4 -- Ligações Iônicas}
+
+Considere os dois sólidos iônicos \textbf{\ce{NaCl}} e \textbf{\ce{MgO}},
+ambos de retículo cristalino cúbico de faces centradas. 
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+
+  \item Escreva a configuração eletrônica dos quatro íons abaixo e
+        indique, para cada um, com qual \textbf{gás nobre} são
+        isoeletrônicos.
+
+        \begin{center}
+        \renewcommand{\arraystretch}{2.2}
+        \begin{tabular}{|c|p{0.38\textwidth}|p{0.28\textwidth}|}
+          \hline
+          \textbf{Íon} & \textbf{Configuração eletrônica} & \textbf{Gás nobre isoeletrônico} \\
+          \hline
+          \ce{Na+}  & & \\
+          \hline
+          \ce{Cl-}  & & \\
+          \hline
+          \ce{Mg^{2+}} & & \\
+          \hline
+          \ce{O^{2-}}  & & \\
+          \hline
+        \end{tabular}
+        \end{center}
+
+  \item A equação de Born--Landé mostra que a energia de rede $|U|$
+        é proporcional a $\dfrac{|z_+|\,|z_-|}{r_0}$.
+        Complete a tabela comparativa abaixo e responda: qual dos dois
+        compostos possui \textbf{maior} energia de rede? Justifique em
+        uma frase.
+
+        \begin{center}
+        \renewcommand{\arraystretch}{2.2}
+        \begin{tabular}{|c|c|c|c|}
+          \hline
+          \textbf{Composto} & $|z_+|\cdot|z_-|$ & $r_0$ (pm) & $\dfrac{|z_+|\cdot|z_-|}{r_0}$ (relativo) \\
+          \hline
+          \ce{NaCl} & & 281 & \\
+          \hline
+          \ce{MgO}  & & 211 & \\
+          \hline
+        \end{tabular}
+        \end{center}
+
+        \vspace{1cm}
+
+  \item O ponto de fusão do \ce{NaCl} é $801$\oC{} e o do \ce{MgO}
+        é $2852$\oC. Com base na energia de rede calculada no item
+        anterior, \textbf{explique} por que existe essa grande
+        diferença de pontos de fusão.
+
+        \vspace{3cm}
+
+  \item O \ce{NaCl} se dissolve facilmente em água, mas o \ce{MgO}
+        praticamente não se dissolve. Isso é coerente com a diferença
+        de energias de rede? \textbf{Explique} em 2--3 linhas.
+
+        \vspace{3cm}
+
+\end{enumerate}
+
+\end{document}
